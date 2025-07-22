@@ -11,36 +11,40 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,cdn.auth0.com
   - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-KEYWORD,openai
+  # - DOMAIN-KEYWORD,openai
 
   # 🤖 Anthropic (Claude)
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-KEYWORD,anthropic
+  # - DOMAIN-KEYWORD,anthropic
 
   # 🌸 Google Bard / Gemini
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,ai.google
-  - DOMAIN-KEYWORD,bard
-  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,aistudio.google.com
+  # - DOMAIN-KEYWORD,bard
+  # - DOMAIN-KEYWORD,gemini
 
   # 🎨 MidJourney
   - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,cdn.discordapp.com
-  - DOMAIN-KEYWORD,midjourney
+  # - DOMAIN-KEYWORD,midjourney
 
   # 🖌️ Stability AI (Stable Diffusion)
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,stability.ai.cdn.cloudflare.net
-  - DOMAIN-KEYWORD,stability
+  # - DOMAIN-KEYWORD,stability
 
   # 🖱️ Kiro (类 Cursor AI)
   - DOMAIN-SUFFIX,kiro.div
   - DOMAIN-SUFFIX,api.kiro.div
   - DOMAIN-SUFFIX,cdn.kiro.div
   - DOMAIN-SUFFIX,auth.kiro.div
-  - DOMAIN-KEYWORD,kiro
+  # - DOMAIN-KEYWORD,kiro
 
   # ☁️ 通用 AIGC 服务依赖 (CDN & Auth)
   - DOMAIN-SUFFIX,cloudflare.com
@@ -49,3 +53,10 @@ payload:
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,azureedge.net
+
+  # 其他AI服务
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,replicate.com
