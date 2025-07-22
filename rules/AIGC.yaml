@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,cdn.auth0.com
   - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   # - DOMAIN-KEYWORD,openai
 
   # 🤖 Anthropic (Claude)
