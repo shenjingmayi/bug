@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         123云盘解锁
 // @author       sjmy
-// @namespace    https://github.com/QingJ01/123pan_unlock
+// @namespace    https://github.com/shenjingmayi/sjmy/油猴/123pan_unlock.js
 // @version      1.0.6
 // @description  专业的123云盘增强脚本 - 完美解锁会员功能、突破下载限制、去广告、支持自定义用户信息。支持个人网盘与分享页面，可在线配置，界面精美，功能强大，让你的123云盘体验更美好！
 // @license      Apache Licence 2.0
