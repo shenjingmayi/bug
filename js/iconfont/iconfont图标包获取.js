@@ -1,14 +1,18 @@
 // ==UserScript==
 // @name         iconfont图标集合下载器
-// @namespace    https.com.github.shenjingmayi
-// @version      1.0
+// @namespace    https://github.com/shenjingmayi/sjmy/js
+// @version      20250823
 // @description  自动获取整个iconfont集合的完整图标包，目前仅支持图标，不支持3D等其他类型。
 // @author       sjmy
 // @match        *://www.iconfont.cn/collections/detail*
 // @require      https://cdn.jsdelivr.net/npm/jszip@3.2.2/dist/jszip.min.js  
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
-// @license      MIT
+// @license      Apache License 2.0
+// @supportURL   https://github.com/shenjingmayi/sjmy/issues
+// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/js/iconfont/iconfont图标包获取.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/js/iconfont/iconfont图标包获取.js
+
 // ==/UserScript==
  
 (function() {
