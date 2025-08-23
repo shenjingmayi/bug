@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name         Quark网盘优化
-// @namespace    https://github.com/shenjingmayi/sjmy/js
+// @namespace    https://github.com/shenjingmayi/bug/js
 // @version      20250823
 // @description  优化Quark网盘使用体验，自动聚焦密码框，移除会员入口
 // @author       sjmy
 // @match        *://pan.quark.cn/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=quark.cn
-// @supportURL   https://github.com/sjmy/sjmy/issues
-// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/js/panQuark_optimize/Quark网盘优化.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/js/panQuark_optimize/Quark网盘优化.js
+// @supportURL   https://github.com/shenjingmayi/bug/issues
+// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark网盘优化.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark网盘优化.js
 // @grant        none
 // @license      Apache License 2.0
-// @license      Custom License - See https://github.com/shenjingmayi/sjmy/blob/main/LICENSE
+// @license      Custom License - See https://github.com/shenjingmayi/bug/blob/main/LICENSE
 // ==/UserScript==
 
 (function() {
