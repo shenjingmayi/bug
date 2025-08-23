@@ -11,6 +11,7 @@
 
 (function() {
   'use strict';
+
   // 操作元素函数
   function operate(querySelector, operateFn) {
     // 寻找目标输入框并处理
