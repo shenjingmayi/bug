@@ -15,7 +15,51 @@ echo.
 :: 获取当前目录
 set "CURRENT_DIR=%~dp0"
 set "CURRENT_DIR=%CURRENT_DIR:~0,-1%"
+
+
 set "JAR_FILE=%CURRENT_DIR%\sniarbtej-2024.2.8.jar"
+
+:: 步骤一：检查Java环境
+echo 正在检查Java环境...
+java -version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo 错误: Java版本不存在，或未为其配置环境变量。
+    echo 请安装Java并配置环境变量后再运行此脚本。
+    echo.
+    pause
+    exit /b 1
+)
+
+:: 检查补丁jar文件是否存在
+if not exist "%JAR_FILE%" (
+    echo 错误: 未找到补丁文件 sniarbtej-2024.2.8.jar
+    echo.
+    echo 请选择操作：
+    echo 1. 自动下载补丁文件（推荐）
+    echo 2. 跳转到仓库页面手动下载
+    echo 3. 退出s
+    set /p "CHOICE=请输入选项数字并回车: "
+    if "%CHOICE%"=="1" (
+        echo 正在尝试自动下载补丁文件...
+        powershell -Command "try { Invoke-WebRequest -Uri 'https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/jetbraincrack/sniarbtej-2024.2.8.jar' -OutFile '%JAR_FILE%' -UseBasicParsing; exit 0 } catch { exit 1 }"
+        if exist "%JAR_FILE%" (
+            echo 下载成功，请勿删除文件sniarbtej-2024.2.8.jar，否则会激活失效
+            echo 继续执行...
+        ) else (
+            echo 自动下载失败，请手动前往仓库下载: https://github.com/shenjingmayi/bug/tree/main/jetbraincrack
+            pause
+            exit /b 1
+        )
+    ) else if "%CHOICE%"=="2" (
+        start https://github.com/shenjingmayi/bug/tree/main/jetbraincrack
+        echo 请下载 sniarbtej-2024.2.8.jar 并放到本脚本同目录下后重新运行。
+        pause
+        exit /b 1
+    ) else (
+        echo 已退出。
+        exit /b 1
+    )
+)
 
 :: 步骤零：检查是否已经修补过环境
 if exist "%CURRENT_DIR%\key.txt" (
@@ -34,16 +78,6 @@ if exist "%CURRENT_DIR%\key.txt" (
     echo.
 )
 
-:: 步骤一：检查Java环境
-echo 正在检查Java环境...
-java -version >nul 2>&1
-if %errorlevel% neq 0 (
-    echo 错误: Java版本不存在，或未为其配置环境变量。
-    echo 请安装Java并配置环境变量后再运行此脚本。
-    echo.
-    pause
-    exit /b 1
-)
 
 :: 修复Java版本显示问题
 for /f "tokens=* usebackq" %%a in (`java -version 2^>^&1 ^| findstr /i "version"`) do (
@@ -322,11 +356,11 @@ if errorlevel 1 goto process_ide
 
 :end
 echo.
-echo 感谢使用JetBrains IDE激活工具！
-echo 制作人：sjmy
+echo 感谢使用JetBrains IDE激活工具!
 echo 仅供学习交流使用,请在下载后24小时之内删除
-echo Github主页https://github.com/shenjingmayi
-echo 该项目地址：https://github.com/shenjingmayi/bug/jetbraincrack
+echo 制作人:sjmy
+echo Github主页:https://github.com/shenjingmayi
+echo 该项目地址:https://github.com/shenjingmayi/bug/tree/main/jetbraincrack
 echo ===================================================
 pause
 exit /b 0
