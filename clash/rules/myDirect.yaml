@@ -1,0 +1,11 @@
+# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/rules/myDirect.ymal
+payload:
+  # 直连规则
+  - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,mobile.events.data.microsoft.com
+  - DOMAIN-SUFFIX,lanzn.com
+  - DOMAIN-SUFFIX,foxirj.com
+  - DOMAIN-SUFFIX,downloads.openwrt.org
+  - DOMAIN-SUFFIX,dl.openwrt.ai
+  - PROCESS-NAME,subs-check.exe
+  - PROCESS-NAME,subs-check

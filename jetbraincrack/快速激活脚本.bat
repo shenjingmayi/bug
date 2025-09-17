@@ -8,6 +8,7 @@ color 0A
 
 echo ===================================================
 echo             JetBrains IDE 激活工具
+echo      仅供学习交流使用,请在下载后24小时之内删除
 echo ===================================================
 echo.
 
@@ -323,8 +324,9 @@ if errorlevel 1 goto process_ide
 echo.
 echo 感谢使用JetBrains IDE激活工具！
 echo 制作人：sjmy
+echo 仅供学习交流使用,请在下载后24小时之内删除
 echo Github主页https://github.com/shenjingmayi
-echo 该项目地址：https://github.com/shenjingmayi/JetbrainCrack
+echo 该项目地址：https://github.com/shenjingmayi/bug/jetbraincrack
 echo ===================================================
 pause
 exit /b 0

@@ -6,6 +6,7 @@
 - 加速CDN
 ```html
 https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/文件路径
+https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/文件路径
 ```
 
 ## 许可证
