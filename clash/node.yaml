@@ -1,4 +1,4 @@
-# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/node.ymal
+# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/node.yaml
 proxies:
   - alpn:
       - h3

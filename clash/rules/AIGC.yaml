@@ -1,4 +1,4 @@
-# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/rules/AIGC.ymal
+# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/rules/AIGC.yaml
 payload:
   # 🧠 OpenAI (ChatGPT / API)
   - DOMAIN-SUFFIX,openai.com

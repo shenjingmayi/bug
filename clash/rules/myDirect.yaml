@@ -1,4 +1,4 @@
-# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/rules/myDirect.ymal
+# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/rules/myDirect.yaml
 payload:
   # 直连规则
   - DOMAIN-SUFFIX,423down.com
