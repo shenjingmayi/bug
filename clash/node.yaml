@@ -409,9 +409,9 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
-  myDirect:
+  my_direct:
     url: https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/clash/rules/myDirect.yaml
-    path: ./ruleset/myDirect.yaml
+    path: ./ruleset/my_direct.yaml
     behavior: classical
     interval: 86400
     format: yaml
@@ -489,9 +489,9 @@ proxy-groups:
       - US AUTO
       - FR AUTO
 rules:
-  - 'RULE-SET,myDIRECT,DIRECT'
   - 'DOMAIN-SUFFIX,xvideos.com,AUTO'
   - 'DOMAIN-SUFFIX,xvideos-cdn.com,AUTO'
+  - 'RULE-SET,my_direct,DIRECT'
   - 'RULE-SET,private,DIRECT'
   - 'RULE-SET,aigc,AIGC'
   - 'RULE-SET,bing,AIGC'
