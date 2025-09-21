@@ -2,6 +2,8 @@
 payload:
   # 直连规则
   - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,codeforces.com
+  - DOMAIN-SUFFIX,sgp.pvp.net
   - DOMAIN-SUFFIX,mobile.events.data.microsoft.com
   - DOMAIN-SUFFIX,lanzn.com
   - DOMAIN-SUFFIX,foxirj.com
