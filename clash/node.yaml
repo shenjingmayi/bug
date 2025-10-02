@@ -204,6 +204,37 @@ proxies:
       path: /oooo
     xudp: true
     servername: baidu.com
+  - name: 🇩🇪 德国
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: hdfynpv2d1.makingirangreatagain.com
+    network: ws
+    ws-opts: 
+      path: "%2FIyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.makingirangreatagain.com
+
+  - name: 🇩🇪 德国 2
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: hdfynpv2d1.makingirangreatagain.com
+    network: ws
+    ws-opts:
+      path: "%2FIyq035lnud9R8ruNNrqGxZZ2"
+      headers: 
+      Host: hdfynpv2d1.makingirangreatagain.com
   - name: "\U0001F1FA\U0001F1F8美国138 | ⬇️ 1.4MB/s|0%|Netflix|Disney|Youtube|Openai"
     network: ws
     port: 80
@@ -281,6 +312,358 @@ proxies:
     server: 51.15.23.63
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1EAAE_1|3.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
+      short-id: ''
+    server: 154.90.55.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+    xudp: true
+    servername: aws.amazon.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_3|4.0MB/s|GPT⁺|YT-FR|NF|16%"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 5355
+    server: 51.159.111.32
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1397
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_4|5.0MB/s|GPT⁺|YT-FR|NF|26%"
+    obfs: ''
+    port: 15010
+    protocol: ''
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1EAAE_1|4.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
+      short-id: ''
+    server: 154.90.55.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+    xudp: true
+    servername: aws.amazon.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F9IT_1|3.2MB/s"
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: ocbc.com
+      path: /oooo
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F5\U0001F1F1PL_2|2.4MB/s|GPT|NF|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: euR8poucesDF-UxANxJ7Uqg1t4cfiDtAzAQcTVhRQCE
+      short-id: 140d8b3989bf5116
+    server: vp2.ssvpnapp.win
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6c49485f-843c-4e96-abfe-046bc473c7b0
+    xudp: true
+    servername: github.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|3.2MB/s|YT-CN|D+"
+    network: ws
+    port: 443
+    server: 63.141.128.173
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9959aff1-8f9e-4827-b997-782b7895c59c
+    ws-opts:
+      headers:
+        Host: yfjcus-7.yfjc.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /yfjc/us7
+    xudp: true
+    servername: yfjcus-7.yfjc.sbs
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1EAAE_2|2.2MB/s|YT-AE"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
+      short-id: ''
+    server: 154.90.55.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+    xudp: true
+    servername: aws.amazon.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F9IT_2|3.2MB/s|GPT⁺|YT-IT|24%"
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v5.heduian.link
+      path: /oooo
+    xudp: true
+    servername: v5.heduian.link
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_1|4.2MB/s|GPT⁺|YT-NL|NF|26%"
+    network: ws
+    port: 443
+    server: 172.67.134.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 59b3242f-6e1b-45f7-a57d-183192cc87fe
+    ws-opts:
+      headers:
+        Host: avid.gorbe.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /random
+    xudp: true
+    servername: avid.gorbe.store
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|5.3MB/s|GPT⁺|NF|GM|51%"
+    network: ws
+    port: 30808
+    server: v8.heduian.link
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1EAAE_1|2.9MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
+      short-id: ''
+    server: 154.90.55.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+    xudp: true
+    servername: aws.amazon.com
+  
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F9IT_1|6.3MB/s|GPT⁺|YT-MD|25%"
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v5.heduian.link
+      path: /oooo
+    xudp: true
+    servername: v5.heduian.link
+  - auth: Telegram-->@Ln2Ray
+    delay: 1488
+    name: "\U0001F1F3\U0001F1F1NL_1|3.4MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+    password: Telegram-->@Ln2Ray
+    port: 45000
+    server: gavazn.lnmarketplace.net
+    skip-cert-verify: true
+    sni: gavazn.55994421.xyz
+    type: hysteria2
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_3|8.0MB/s|GPT⁺|YT-NL|NF|28%"
+    network: ws
+    port: 443
+    server: 172.67.134.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 59b3242f-6e1b-45f7-a57d-183192cc87fe
+    ws-opts:
+      headers:
+        Host: avid.gorbe.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /random
+    xudp: true
+    servername: avid.gorbe.store
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F2\U0001F1E9MD_1|3.1MB/s|GPT⁺|YT-RU|NF|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 1he5EyHxI595x0mNkFNxOebUOQZGVGIy_c92bn1qO2o
+      short-id: ac31827454d7f693
+    server: 194.156.67.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c8d98220-eee5-47ab-b311-b5a52c24d808
+    xudp: true
+    servername: cdnjs.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F8\U0001F1ECSG_5|12.0MB/s|GPT⁺|YT-SG|NF|GM|37%"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '(TG @WangCai2)69b8e69:33734'
+      mode: tls
+    port: 2377
+    server: 5.44.249.42
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1FCTW_6|10.7MB/s|YT-TW|NF|D+|GM"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: 'd35c547:137545'
+      mode: tls
+    port: 2377
+    server: 60.249.14.38
+    tfo: false
+    type: ss
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_11|6.4MB/s|GPT⁺|YT-US|NF|GM|49%"
+    network: ws
+    port: 30808
+    server: v8.heduian.link
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_6|3.6MB/s|GPT|YT-US|NF|GM|49%"
+    network: ws
+    port: 30829
+    server: v29.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v29.heduian.link
+      path: /oooo
+    xudp: true
+  
+  - {name: 🇰🇷 韩国, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.238.209.247:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.251.255.16:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 3, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.221.231.226:50000, headers: {Host: worker.biz.id}}}
+  - {name: 🇺🇸 美国, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/100.8.73.135:8443, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 4, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.177.76.215:10026, headers: {Host: worker.biz.id}}}
+  - {name: 🇯🇵 日本, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.0.123:443, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 5, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/101.235.209.154:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇺🇸 美国 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/100.21.232.129:9997, headers: {Host: worker.biz.id}}}
+  - {name: 🇯🇵 日本 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.228.126:2053, headers: {Host: worker.biz.id}}}
+  - {name: 🇨🇳 台湾, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.230.186:81, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 6, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.226.148.216:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 7, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.249.45.86:12112, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 8, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.251.170.218:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 9, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.226.227.169:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 10, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.232.86.168:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 11, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.236.22.155:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 12, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.237.51.17:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 13, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.255.181.62:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇭🇰 香港, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.112.185.138:587, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 14, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.233.162.148:50001, headers: {Host: worker.biz.id}}}
+  
 rule-providers:
   private:
     url: >-
