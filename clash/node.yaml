@@ -517,7 +517,6 @@ proxies:
     uuid: f47b5d3c-4051-476d-8280-89b1125b4467
     xudp: true
     servername: aws.amazon.com
-  
   - alterId: 2
     cipher: auto
     name: "\U0001F1EE\U0001F1F9IT_1|6.3MB/s|GPT⁺|YT-MD|25%"
@@ -642,7 +641,6 @@ proxies:
         Host: v29.heduian.link
       path: /oooo
     xudp: true
-  
   - {name: 🇰🇷 韩国, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.238.209.247:50001, headers: {Host: worker.biz.id}}}
   - {name: 🇰🇷 韩国 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.251.255.16:50001, headers: {Host: worker.biz.id}}}
   - {name: 🇰🇷 韩国 3, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.221.231.226:50000, headers: {Host: worker.biz.id}}}
@@ -663,7 +661,6 @@ proxies:
   - {name: 🇰🇷 韩国 13, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.255.181.62:50001, headers: {Host: worker.biz.id}}}
   - {name: 🇭🇰 香港, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.112.185.138:587, headers: {Host: worker.biz.id}}}
   - {name: 🇰🇷 韩国 14, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.233.162.148:50001, headers: {Host: worker.biz.id}}}
-  
 rule-providers:
   private:
     url: >-
