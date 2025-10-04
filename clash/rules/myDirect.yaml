@@ -2,6 +2,7 @@
 payload:
   # 直连规则
   - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,antdv.com
   - DOMAIN-SUFFIX,codeforces.com
   - DOMAIN-SUFFIX,codeforces.org
   - DOMAIN-SUFFIX,sgp.pvp.net
