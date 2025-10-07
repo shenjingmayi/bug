@@ -62,3 +62,5 @@ payload:
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,replicate.com
+  # openwrt系统
+  - DOMAIN-SUFFIX,dl.openwrt.ai

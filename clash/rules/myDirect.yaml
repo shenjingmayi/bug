@@ -10,6 +10,5 @@ payload:
   - DOMAIN-SUFFIX,lanzn.com
   - DOMAIN-SUFFIX,foxirj.com
   - DOMAIN-SUFFIX,downloads.openwrt.org
-  - DOMAIN-SUFFIX,openwrt.ai
   - PROCESS-NAME,subs-check.exe
   - PROCESS-NAME,subs-check
