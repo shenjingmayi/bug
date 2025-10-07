@@ -753,7 +753,7 @@ rule-providers:
     type: http
   China:
     url: >-
-      hhttps://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml
     type: http
     behavior: domain
     path: ./ruleset/China.yaml
@@ -844,7 +844,7 @@ proxy-groups:
   - name: PROXY
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
     type: select
     proxies:
       - AUTO
@@ -854,7 +854,7 @@ proxy-groups:
   - name: AUTO
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
     type: url-test
     interval: 300
   - name: Switch
@@ -923,7 +923,7 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
     type: select
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
     proxies:
       - PROXY
       - AUTO
@@ -935,10 +935,19 @@ proxy-groups:
       - FR AUTO
 rules:
   # 额外优先级规则
+  - 'DOMAIN-SUFFIX,jsdelivr.net,CN'
+  - DOMAIN-SUFFIX,pool.ntp.org,CN
+  - DOMAIN-KEYWORD,ntp,CN
+  - DOMAIN,mobile.events.data.microsoft.com,PROXY
   - 'DOMAIN-SUFFIX,xvideos.com,Switch'
   - 'DOMAIN-SUFFIX,xvideos-cdn.com,Switch'
   - 'RULE-SET,my_direct,CN'
   - 'RULE-SET,private,CN'
+  # tailscale
+  - 'IP-CIDR,100.64.0.0/10,DIRECT'
+  - 'DOMAIN,stun.l.google.com,DIRECT'
+  - 'PROCESS-NAME,tailscaled,DIRECT'
+  - 'PROCESS-NAME,tailscale,DIRECT'
   # aigc系列
   - 'RULE-SET,my_aigc,AIGC'
   - 'RULE-SET,bing,AIGC'
@@ -948,22 +957,28 @@ rules:
   - 'RULE-SET,claude,AIGC'
   # steam
   - 'RULE-SET,steam,PROXY'
-  - 'RULE-SET,steam_cn,CN'
+  - 'RULE-SET,steam_cn,PROXY'
   # Telegram
   - 'RULE-SET,telegram_domain,Telegram'
   - 'RULE-SET,telegram_ip,Telegram'
   - 'RULE-SET,telegram,Telegram'
   # Notion
-  - DOMAIN,http-inputs-notion.splunkcloud.com,PROXY
-  - RULE-SET,Notion,PROXY
+  - 'DOMAIN,http-inputs-notion.splunkcloud.com,PROXY'
+  - 'RULE-SET,Notion,PROXY'
   # Spotify
-  - DOMAIN,open.spotify.com,PROXY
-  - DOMAIN-SUFFIX,akamaized.net,CN
-  - DOMAIN-SUFFIX,spotify.com,CN
-  - DOMAIN-SUFFIX,spotifycdn.com,CN
-  - DOMAIN-SUFFIX,scdn.co,CN
-  - DOMAIN-SUFFIX,branch.io,CN
-  - RULE-SET,Spotify,CN
+  - 'DOMAIN,open.spotify.com,PROXY'
+  - 'DOMAIN-SUFFIX,akamaized.net,CN'
+  - 'DOMAIN-SUFFIX,spotify.com,CN'
+  - 'DOMAIN-SUFFIX,spotifycdn.com,CN'
+  - 'DOMAIN-SUFFIX,scdn.co,CN'
+  - 'DOMAIN-SUFFIX,branch.io,CN'
+  - 'RULE-SET,Spotify,CN'
+  # 微软系统相关常见可代理域
+  - DOMAIN-SUFFIX,microsoft.com,PROXY
+  - DOMAIN-SUFFIX,windowsupdate.com,PROXY
+  - DOMAIN-SUFFIX,live.com,PROXY
+  - DOMAIN-SUFFIX,office.com,PROXY
+  - DOMAIN,nav-edge.smartscreen.microsoft.com,PROXY
   # goole
   - 'RULE-SET,google_domain,Google'
   - 'RULE-SET,google_ip,Google'
@@ -971,9 +986,10 @@ rules:
   - 'RULE-SET,geolocation-!cn,PROXY'
   - 'RULE-SET,global,PROXY'
   # 直连规则集
+  - 'GEOIP,CN,CN'
   - 'RULE-SET,cn_domain,CN'
   - 'RULE-SET,cn_ip,CN'
   # 内网直连
   - 'GEOIP,LAN,DIRECT'
   # 剩余参数
-  - 'MATCH,PROXY'
+  - 'MATCH,CN'
