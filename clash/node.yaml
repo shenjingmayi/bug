@@ -1,5 +1,10 @@
 # https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/node.yaml
 proxies:
+  - name: "ua3f"
+    type: socks5
+    server: 127.0.0.1
+    port: 1080
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
   - alpn:
       - h3
     auth_str: dongtaiwang.com
@@ -670,14 +675,13 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
-  cn_domain:
+  Notion:
     url: >-
-      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
-    path: ./ruleset/cn_domain.yaml
-    behavior: domain
-    interval: 86400
-    format: yaml
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Notion/Notion.yaml
     type: http
+    behavior: classical
+    path: ./ruleset/Notion.yaml
+    interval: 86400
   telegram_domain:
     url: >-
       https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.yaml
@@ -686,6 +690,21 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  telegram_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
+    path: ./ruleset/telegram_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  telegram:
+    url: >-
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+    type: http
+    behavior: classical
+    path: ./ruleset/telegram.yaml
+    interval: 86400
   google_domain:
     url: >-
       https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.yaml
@@ -694,6 +713,20 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  google_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
+    path: ./ruleset/google_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  global:
+    type: http
+    behavior: domain
+    path: ./ruleset/global.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml
+    interval: 86400
   geolocation-!cn:
     url: >-
       https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.yaml
@@ -710,22 +743,21 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
-  telegram_ip:
+  cn_domain:
     url: >-
-      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
-    path: ./ruleset/telegram_ip.yaml
-    behavior: ipcidr
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
+    path: ./ruleset/cn_domain.yaml
+    behavior: domain
     interval: 86400
     format: yaml
     type: http
-  google_ip:
+  China:
     url: >-
-      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
-    path: ./ruleset/google_ip.yaml
-    behavior: ipcidr
-    interval: 86400
-    format: yaml
+      hhttps://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml
     type: http
+    behavior: domain
+    path: ./ruleset/China.yaml
+    interval: 86400
   bing:
     url: >-
       https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
@@ -774,6 +806,12 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  steam_cn:
+    type: http
+    behavior: classical
+    path: ./ruleset/steam_cn.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml
+    interval: 86400
   apple:
     url: >-
       https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
@@ -782,9 +820,15 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
-  aigc:
+  Spotify:
+    type: http
+    behavior: classical
+    path: ./ruleset/Spotify.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+    interval: 86400
+  my_aigc:
     url: https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/clash/rules/AIGC.yaml
-    path: ./ruleset/aigc.yaml
+    path: ./ruleset/my_aigc.yaml
     behavior: classical
     interval: 86400
     format: yaml
@@ -804,7 +848,7 @@ proxy-groups:
     type: select
     proxies:
       - AUTO
-      - HK AUTO
+      - HK TW AUTO
       - US AUTO
       - FR AUTO
   - name: AUTO
@@ -812,6 +856,27 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     type: url-test
+    interval: 300
+  - name: Switch
+    type: select
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png'
+    proxies:
+      - GLOBAL
+      - AUTO
+      - US AUTO
+      - HK TW AUTO
+      - FR AUTO
+      - Google
+      - Telegram
+      - AIGC
+      - CN
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    interval: 300
+  - name: CN
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/CN.png'
+    type: select
+    proxies:
+      - ua3f
     interval: 300
   - name: AIGC
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
@@ -823,14 +888,14 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
     type: select
     proxies:
-      - HK AUTO
+      - HK TW AUTO
       - FR AUTO
       - US AUTO
   - name: Google
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
     type: select
     proxies:
-      - HK AUTO
+      - HK TW AUTO
       - FR AUTO
       - US AUTO
   - name: FR AUTO
@@ -840,11 +905,11 @@ proxy-groups:
     filter: "(?i)法国|France|FR|\U0001F1EB\U0001F1F7"
     type: url-test
     interval: 300
-  - name: HK AUTO
+  - name: HK TW AUTO
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: "(?i)香港|Hong Kong|HK|\U0001F1ED\U0001F1F0"
+    filter: "(?i)香港|Hong Kong|HK|\U0001F1ED\U0001F1F0|台湾|Taiwan|TW|\U0001f1f9\U0001f1fc"
     type: url-test
     interval: 300
   - name: US AUTO
@@ -865,26 +930,50 @@ proxy-groups:
       - AIGC
       - Telegram
       - Google
-      - HK AUTO
+      - HK TW AUTO
       - US AUTO
       - FR AUTO
 rules:
-  - 'DOMAIN-SUFFIX,xvideos.com,AUTO'
-  - 'DOMAIN-SUFFIX,xvideos-cdn.com,AUTO'
-  - 'RULE-SET,my_direct,DIRECT'
-  - 'RULE-SET,private,DIRECT'
-  - 'RULE-SET,aigc,AIGC'
+  # 额外优先级规则
+  - 'DOMAIN-SUFFIX,xvideos.com,Switch'
+  - 'DOMAIN-SUFFIX,xvideos-cdn.com,Switch'
+  - 'RULE-SET,my_direct,CN'
+  - 'RULE-SET,private,CN'
+  # aigc系列
+  - 'RULE-SET,my_aigc,AIGC'
   - 'RULE-SET,bing,AIGC'
   - 'RULE-SET,copilot,AIGC'
   - 'RULE-SET,bard,AIGC'
   - 'RULE-SET,openai,AIGC'
   - 'RULE-SET,claude,AIGC'
+  # steam
   - 'RULE-SET,steam,PROXY'
+  - 'RULE-SET,steam_cn,CN'
+  # Telegram
   - 'RULE-SET,telegram_domain,Telegram'
   - 'RULE-SET,telegram_ip,Telegram'
+  - 'RULE-SET,telegram,Telegram'
+  # Notion
+  - DOMAIN,http-inputs-notion.splunkcloud.com,PROXY
+  - RULE-SET,Notion,PROXY
+  # Spotify
+  - DOMAIN,open.spotify.com,PROXY
+  - DOMAIN-SUFFIX,akamaized.net,CN
+  - DOMAIN-SUFFIX,spotify.com,CN
+  - DOMAIN-SUFFIX,spotifycdn.com,CN
+  - DOMAIN-SUFFIX,scdn.co,CN
+  - DOMAIN-SUFFIX,branch.io,CN
+  - RULE-SET,Spotify,CN
+  # goole
   - 'RULE-SET,google_domain,Google'
   - 'RULE-SET,google_ip,Google'
+  # 外网访问规则
   - 'RULE-SET,geolocation-!cn,PROXY'
-  - 'RULE-SET,cn_domain,DIRECT'
-  - 'RULE-SET,cn_ip,DIRECT'
+  - 'RULE-SET,global,PROXY'
+  # 直连规则集
+  - 'RULE-SET,cn_domain,CN'
+  - 'RULE-SET,cn_ip,CN'
+  # 内网直连
+  - 'GEOIP,LAN,DIRECT'
+  # 剩余参数
   - 'MATCH,PROXY'
