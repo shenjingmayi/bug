@@ -20,12 +20,16 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   # - DOMAIN-KEYWORD,anthropic
 
-  # 🌸 Google Bard / Gemini
+  # 🌸 Google Bard / Gemini / antigravity
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,ai.google.dev
   - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,stats.cdnjtzy.com
+  - DOMAIN-SUFFIX,cdnjtzy.com
+  - DOMAIN-SUFFIX,rumt-zh.com
   # - DOMAIN-KEYWORD,bard
   # - DOMAIN-KEYWORD,gemini
 
