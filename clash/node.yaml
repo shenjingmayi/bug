@@ -877,7 +877,7 @@ rules:
   - 'RULE-SET,claude,AIGC'
   # steam
   - 'RULE-SET,steam,PROXY'
-  - 'RULE-SET,steam_cn,PROXY'
+  - 'RULE-SET,steam_cn,DIRECT'
   # Telegram
   - 'RULE-SET,telegram_domain,Telegram'
   - 'RULE-SET,telegram_ip,Telegram'
@@ -913,4 +913,4 @@ rules:
   # 内网直连
   - 'GEOIP,LAN,DIRECT'
   # 剩余参数
-  - 'MATCH,PROXY'
+  - 'MATCH,CN'
