@@ -894,14 +894,18 @@ rules:
   - 'DOMAIN-SUFFIX,branch.io,DIRECT'
   - 'RULE-SET,Spotify,DIRECT'
   # 微软系统相关常见可代理域
-  - DOMAIN-SUFFIX,microsoft.com,PROXY
-  - DOMAIN-SUFFIX,windowsupdate.com,PROXY
-  - DOMAIN-SUFFIX,live.com,PROXY
-  - DOMAIN-SUFFIX,office.com,PROXY
-  - DOMAIN,nav-edge.smartscreen.microsoft.com,PROXY
+  - 'DOMAIN-SUFFIX,microsoft.com,PROXY'
+  - 'DOMAIN-SUFFIX,windowsupdate.com,PROXY'
+  - 'DOMAIN-SUFFIX,live.com,PROXY'
+  - 'DOMAIN-SUFFIX,office.com,PROXY'
+  - 'DOMAIN,nav-edge.smartscreen.microsoft.com,PROXY'
   # goole
   - 'RULE-SET,google_domain,Google'
   - 'RULE-SET,google_ip,Google'
+  - 'DOMAIN-SUFFIX,antigravity.google,PROXY'
+  - 'DOMAIN-SUFFIX,stats.cdnjtzy.com,PROXY'
+  - 'DOMAIN-SUFFIX,cdnjtzy.com,PROXY'
+  - 'DOMAIN-SUFFIX,rumt-zh.com,PROXY'
   # 外网访问规则
   - 'RULE-SET,geolocation-!cn,PROXY'
   - 'RULE-SET,global,PROXY'
