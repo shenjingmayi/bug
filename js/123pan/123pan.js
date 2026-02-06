@@ -23,8 +23,8 @@
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=123pan.com
 // @supportURL   https://github.com/shenjingmayi/bug/issues
-// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/123pan_unlock/123pan_unlock.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/123pan_unlock/123pan_unlock.js
+// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/123pan/123pan.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/123pan/123pan.js
 
 // ==/UserScript==
 
