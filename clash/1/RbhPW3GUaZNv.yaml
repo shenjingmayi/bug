@@ -1,0 +1,920 @@
+# https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/clash/node.yaml
+proxies:
+  - name: "ua3f"
+    type: socks5
+    server: 127.0.0.1
+    port: 1080
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+  - name: "\U0001F1FA\U0001F1F8美国2 | 6.3MB/s|45%|Netflix|Openai"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    port: 17549
+    server: 208.87.243.151
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1FA\U0001F1F8美国74 | 7.4MB/s|Netflix|Openai|Gemini"
+    alterId: 2
+    cipher: auto
+    network: ws
+    port: 30808
+    server: v8.heduian.link
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+  - name: "\U0001F1FA\U0001F1F8美国75 | 25.3MB/s|46%|Netflix|Openai"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 1000 Mbps
+    port: 11512
+    server: 108.181.24.77
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 1000 Mbps
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1FA\U0001F1F8美国93 | 4.2MB/s|0%|Netflix|Disney|Openai"
+    delay: 798
+    network: ws
+    port: 2087
+    server: 190.93.245.101
+    tls: true
+    type: vless
+    uuid: 3df93bd0-ae17-46db-92e5-90bff99762c0
+    ws-opts:
+      headers:
+        Host: cmp.danjun.ddns-ip.net
+      path: /?ed=2560
+    servername: cmp.danjun.ddns-ip.net
+  - name: "\U0001F1FA\U0001F1F8美国100 | 1.8MB/s|0%|Netflix|Disney|Openai"
+    delay: 1001
+    network: ws
+    port: 2096
+    server: 104.16.24.117
+    tls: true
+    type: vless
+    uuid: 3df93bd0-ae17-46db-92e5-90bff99762c0
+    ws-opts:
+      headers:
+        Host: cmp.danjun.ddns-ip.net
+      path: /?ed=2560
+    servername: cmp.danjun.ddns-ip.net
+  - name: "\U0001F1FA\U0001F1F8美国127 | 1.0MB/s|Netflix|Openai|Gemini"
+    alterId: 2
+    cipher: auto
+    network: ws
+    port: 30808
+    server: v8.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+    xudp: true
+    servername: baidu.com
+  - name: "\U0001F1FA\U0001F1F8美国138 | 1.4MB/s|0%|Netflix|Disney|Youtube|Openai"
+    network: ws
+    port: 80
+    server: 104.24.138.64
+    type: vless
+    udp: true
+    uuid: 5d8bc42a-d345-4bd3-a844-4b90afc44670
+    ws-opts:
+      headers:
+        Host: patient-shadow-baf1-ppal03.hohel98085.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国143 | 17.0MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
+    cipher: chacha20-ietf
+    password: asd123456
+    port: 8388
+    server: 103.36.91.32
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8美国181 | 1.3MB/s|0%|Netflix|Disney|Openai"
+    alpn:
+      - h3
+    client-fingerprint: random
+    network: ws
+    port: 2096
+    server: 104.21.238.2
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: fei.634676.xyz
+  - name: "\U0001F1FA\U0001F1F8美国_11 | 6.4MB/s|GPT⁺|YT-US|NF|GM|49%"
+    alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    network: ws
+    port: 30808
+    server: v8.heduian.link
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+  - name: "\U0001F1FA\U0001F1F8美国_6 | 3.6MB/s|GPT|YT-US|NF|GM|49%"
+    alterId: 2
+    cipher: auto
+    network: ws
+    port: 30829
+    server: v29.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v29.heduian.link
+      path: /oooo
+    xudp: true
+  - { name: 🇺🇸 美国, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: { path: /free/100.8.73.135:8443, headers: { Host: worker.biz.id }}}
+  - { name: 🇺🇸 美国 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/100.21.232.129:9997, headers: {Host: worker.biz.id}}}
+  - name: "\U0001F1FA\U0001F1F8美国_3 | 3.2MB/s|YT-CN|D+"
+    client-fingerprint: chrome
+    network: ws
+    port: 443
+    server: 63.141.128.173
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9959aff1-8f9e-4827-b997-782b7895c59c
+    ws-opts:
+      headers:
+        Host: yfjcus-7.yfjc.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /yfjc/us7
+    xudp: true
+    servername: yfjcus-7.yfjc.sbs
+  
+  - { name: 🇰🇷 韩国 4, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: { path: /free/1.177.76.215:10026, headers: { Host: worker.biz.id }}}
+  - { name: 🇰🇷 韩国 5, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/101.235.209.154:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.238.209.247:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.251.255.16:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 3, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.221.231.226:50000, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 6, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.226.148.216:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 7, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: { path: /free/1.249.45.86:12112, headers: { Host: worker.biz.id }}}
+  - {name: 🇰🇷 韩国 8, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.251.170.218:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 9, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.226.227.169:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 10, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.232.86.168:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 11, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.236.22.155:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 12, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.237.51.17:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 13, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.255.181.62:50001, headers: {Host: worker.biz.id}}}
+  - {name: 🇰🇷 韩国 14, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/1.233.162.148:50001, headers: {Host: worker.biz.id}}}
+  - name: "\U0001F1EB\U0001F1F7法国1 | 10.6MB/s|0%|Netflix|Youtube|Openai"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 100
+    fast-open: true
+    port: 15010
+    protocol: udp
+    recv-window: 276824064
+    recv_window_conn: 69206016
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 100
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1EB\U0001F1F7法国2 | 11.4MB/s|14%|Netflix|Openai"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 100
+    fast-open: true
+    port: 14241
+    protocol: udp
+    recv-window: 230686720
+    recv_window_conn: 57671680
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 100
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1EB\U0001F1F7法国5 | 5.9MB/s|0%|Netflix|Youtube|Openai"
+    alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    client-fingerprint: chrome
+    down: 55
+    port: 46938
+    protocol: udp
+    server: 195.154.200.178
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11
+  - name: "\U0001F1EB\U0001F1F7法国20 | 1.1MB/s|14%|Openai"
+    network: ws
+    port: 80
+    server: tgju.org
+    type: vless
+    udp: true
+    uuid: 76ad8213-4617-47eb-92cc-5392b39b45ce
+    ws-opts:
+      headers:
+        Host: eLOQuENt-caSE.ZUlaIR.orG.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /?ed=2048
+    xudp: true
+  - name: "\U0001F1EB\U0001F1F7法国_3|4.0MB/s|GPT⁺|YT-FR|NF|16%"
+    down: ''
+    fingerprint: ''
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 5355
+    server: 51.159.111.32
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EB\U0001F1F7法国_4|5.0MB/s|GPT⁺|YT-FR|NF|26%"
+    alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1397
+    down: '100'
+    obfs: ''
+    port: 15010
+    protocol: ''
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  
+  - { name: "\U0001F1ED\U0001F1F0香港14 | 4.0MB/s|0%|Disney", password: 2c605663-b89a-5734-a9d6-97d4743d72cf, port: 8313, server: dozo01.flztjc.top, skip-cert-verify: true, sni: hk-13-568.flztjc.net, type: trojan }
+  - name: "\U0001F1ED\U0001F1F0香港36 | 42.8MB/s|20%|Netflix|Youtube"
+    cipher: aes-256-gcm
+    password: 176c983f-6a7f-4a96-9865-891a6c48ec86
+    port: 50000
+    server: a001.standard-nodes-chickenfarms.com
+    type: ss
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0香港37 | 1.0MB/s|0%|Netflix|Disney|Youtube"
+    cipher: chacha20-ietf
+    password: asd123456
+    port: 8388
+    server: 103.149.182.61
+    type: ss
+    udp: true
+  - { name: 🇭🇰 香港, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.112.185.138:587, headers: {Host: worker.biz.id}}}
+        
+
+  - name: "\U0001F1F9\U0001F1FC台湾_6 | 10.7MB/s|YT-TW|NF|D+|GM"
+    cipher: chacha20-ietf-poly1305
+    client-fingerprint: chrome
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: 'd35c547:137545'
+      mode: tls
+    port: 2377
+    server: 60.249.14.38
+    tfo: false
+    type: ss
+  - { name: 🇨🇳 台湾, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.230.186:81, headers: {Host: worker.biz.id}}}
+        
+  - name: "\U0001F1F9\U0001F1FC台湾4 | 2.3MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
+    delay: 1556
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - {name: 🇯🇵 日本 2, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.228.126:2053, headers: {Host: worker.biz.id}}}
+  - {name: 🇯🇵 日本, server: bestcf.030101.xyz, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: worker.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /free/103.106.0.123:443, headers: {Host: worker.biz.id}}}
+  - name: "\U0001F1F7\U0001F1FA俄罗斯1 | 9.5MB/s|0%|Youtube"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 1000 Mbps
+    port: 62003
+    server: 176.32.35.226
+    servername: apple.com
+    skip-cert-verify: true
+    type: hysteria
+    up: 1000 Mbps
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1F7\U0001F1FA俄罗斯2 | 1.8MB/s|100%"
+    alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 1000 Mbps
+    port: 10803
+    server: 185.22.155.71
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
+    up: 1000 Mbps
+    auth-str: dongtaiwang.com
+  - name: 🇩🇪 德国
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: hdfynpv2d1.makingirangreatagain.com
+    network: ws
+    ws-opts: 
+      path: "%2FIyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.makingirangreatagain.com
+  - name: 🇩🇪 德国 2
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: hdfynpv2d1.makingirangreatagain.com
+    network: ws
+    ws-opts:
+      path: "%2FIyq035lnud9R8ruNNrqGxZZ2"
+      headers: 
+      Host: hdfynpv2d1.makingirangreatagain.com
+  
+  - name: "\U0001F300其他7-土耳其 | 3.9MB/s|0%|Openai|Gemini"
+    alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    delay: 1842
+    h2-opts: {}
+    http-opts: {}
+    network: ws
+    port: 2096
+    server: 141.101.121.39
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+    ws-opts:
+      headers:
+        HOST: 1745825578.speed.trabblsacxa.cccp.freefly.pp.ua
+      path: /
+    servername: 1745825578.speed.trabblsacxa.cccp.freefly.pp.ua
+  - name: "\U0001F300其他11-越南 | 3.9MB/s|0%|Openai|Gemini"
+    cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    delay: 853
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.26
+    type: ss
+  - name: "\U0001F300其他17-T1 | 1.0MB/s|20%|Openai"
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 51.15.23.63
+    type: ss
+    udp: true
+
+  - name: "\U0001F1E6\U0001F1EA阿拉伯_1|3.0MB/s"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
+      short-id: ''
+    server: 154.90.55.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+    xudp: true
+    servername: aws.amazon.com
+
+  - name: "\U0001F1EE\U0001F1F9意大利_1|3.2MB/s"
+    alterId: 2
+    cipher: auto
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: ocbc.com
+      path: /oooo
+  - name: "\U0001F1EE\U0001F1F9意大利_2|3.2MB/s|GPT⁺|YT-IT|24%"
+    alterId: 2
+    cipher: auto
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v5.heduian.link
+      path: /oooo
+    xudp: true
+    servername: v5.heduian.link
+  
+  - name: "\U0001F1E8\U0001F1E6加拿大9 | 2.7MB/s|39%|Netflix|Youtube|Openai|Gemini"
+    cipher: aes-256-gcm
+    password: ERHI6BKS25YVTEDT
+    port: 20006
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    type: ss
+    udp: true
+  
+  - name: "\U0001F1F3\U0001F1F1荷兰_1|4.2MB/s|GPT⁺|YT-NL|NF|26%"
+    alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    port: 443
+    server: 172.67.134.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 59b3242f-6e1b-45f7-a57d-183192cc87fe
+    ws-opts:
+      headers:
+        Host: avid.gorbe.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /random
+    xudp: true
+    servername: avid.gorbe.store
+  - name: "\U0001F1F3\U0001F1F1荷兰_1|3.4MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    auth: Telegram-->@Ln2Ray
+    delay: 1488
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+    password: Telegram-->@Ln2Ray
+    port: 45000
+    server: gavazn.lnmarketplace.net
+    skip-cert-verify: true
+    sni: gavazn.55994421.xyz
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1荷兰_3|8.0MB/s|GPT⁺|YT-NL|NF|28%"
+    alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    port: 443
+    server: 172.67.134.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 59b3242f-6e1b-45f7-a57d-183192cc87fe
+    ws-opts:
+      headers:
+        Host: avid.gorbe.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /random
+    xudp: true
+    servername: avid.gorbe.store
+
+  - name: "\U0001F1F5\U0001F1F1波兰_2|2.4MB/s|GPT|NF|0%"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: euR8poucesDF-UxANxJ7Uqg1t4cfiDtAzAQcTVhRQCE
+      short-id: 140d8b3989bf5116
+    server: vp2.ssvpnapp.win
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6c49485f-843c-4e96-abfe-046bc473c7b0
+    xudp: true
+    servername: github.com
+
+  - name: "\U0001F1F2\U0001F1E9摩尔多瓦_1|3.1MB/s|GPT⁺|YT-RU|NF|0%"
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 1he5EyHxI595x0mNkFNxOebUOQZGVGIy_c92bn1qO2o
+      short-id: ac31827454d7f693
+    server: 194.156.67.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c8d98220-eee5-47ab-b311-b5a52c24d808
+    xudp: true
+    servername: cdnjs.com
+  - name: "\U0001F1F8\U0001F1EC新加坡_5|12.0MB/s|GPT⁺|YT-SG|NF|GM|37%"
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '(TG @WangCai2)69b8e69:33734'
+      mode: tls
+    port: 2377
+    server: 5.44.249.42
+    type: ss
+    udp: true
+
+rule-providers:
+  private:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml
+    path: ./ruleset/private.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  Notion:
+    url: >-
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Notion/Notion.yaml
+    type: http
+    behavior: classical
+    path: ./ruleset/Notion.yaml
+    interval: 86400
+  telegram_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.yaml
+    path: ./ruleset/telegram_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  telegram_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
+    path: ./ruleset/telegram_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  telegram:
+    url: >-
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+    type: http
+    behavior: classical
+    path: ./ruleset/telegram.yaml
+    interval: 86400
+  google_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.yaml
+    path: ./ruleset/google_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  google_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
+    path: ./ruleset/google_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  global:
+    type: http
+    behavior: domain
+    path: ./ruleset/global.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml
+    interval: 86400
+  geolocation-!cn:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.yaml
+    path: ./ruleset/geolocation-!cn.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  cn_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.yaml
+    path: ./ruleset/cn_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  cn_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
+    path: ./ruleset/cn_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  China:
+    url: >-
+      https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml
+    type: http
+    behavior: domain
+    path: ./ruleset/China.yaml
+    interval: 86400
+  bing:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
+    path: ./ruleset/bing.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  copilot:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+    path: ./ruleset/copilot.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  claude:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
+    path: ./ruleset/claude.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  bard:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BardAI/BardAI.yaml
+    path: ./ruleset/bard.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  openai:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    path: ./ruleset/openai.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  steam:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/steam.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  steam_cn:
+    type: http
+    behavior: classical
+    path: ./ruleset/steam_cn.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml
+    interval: 86400
+  apple:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+    path: ./ruleset/apple.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  Spotify:
+    type: http
+    behavior: classical
+    path: ./ruleset/Spotify.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+    interval: 86400
+  my_aigc:
+    url: https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/clash/rules/AIGC.yaml
+    path: ./ruleset/my_aigc.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  my_direct:
+    url: https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/clash/rules/myDirect.yaml
+    path: ./ruleset/my_direct.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+proxy-groups:
+  - name: PROXY
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
+    type: select
+    proxies:
+      - AUTO
+      - HK TW AUTO
+      - US AUTO
+      - FR AUTO
+  - name: AUTO
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
+    type: url-test
+    interval: 300
+  - name: Switch
+    type: select
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png'
+    proxies:
+      - GLOBAL
+      - AUTO
+      - US AUTO
+      - HK TW AUTO
+      - FR AUTO
+      - Google
+      - Telegram
+      - AIGC
+      # - CN
+    url: http://connectivitycheck.platform.hicloud.com/generate_204
+    interval: 300
+  # - name: CN
+  #   icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/CN.png'
+  #   type: select
+  #   proxies:
+  #     - ua3f
+  #   interval: 300
+  - name: AIGC
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    type: select
+    proxies:
+      - US AUTO
+      - FR AUTO
+  - name: Telegram
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
+    type: select
+    proxies:
+      - HK TW AUTO
+      - FR AUTO
+      - US AUTO
+  - name: Google
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
+    type: select
+    proxies:
+      - HK TW AUTO
+      - FR AUTO
+      - US AUTO
+  - name: FR AUTO
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)法国|France|FR|\U0001F1EB\U0001F1F7"
+    type: url-test
+    interval: 300
+  - name: HK TW AUTO
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)香港|Hong Kong|HK|\U0001F1ED\U0001F1F0|台湾|Taiwan|TW|\U0001f1f9\U0001f1fc"
+    type: url-test
+    interval: 300
+  - name: US AUTO
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
+    type: url-test
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)美国|USA|\U0001F1FA\U0001F1F8"
+    interval: 300
+  - name: GLOBAL
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
+    type: select
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|ua3f
+    proxies:
+      - PROXY
+      - AUTO
+      - AIGC
+      - Telegram
+      - Google
+      - HK TW AUTO
+      - US AUTO
+      - FR AUTO
+rules:
+  # 额外优先级规则
+  - 'DOMAIN-SUFFIX,codeforces.com,DIRECT'
+  - 'DOMAIN-SUFFIX,istoreos.com,DIRECT'
+  - 'DOMAIN-SUFFIX,kotlincn.net,PROXY'
+  - 'DOMAIN-SUFFIX,423down.com,PROXY'
+  - 'DOMAIN-SUFFIX,pool.ntp.org,PROXY'
+  # - 'DOMAIN-KEYWORD,ntp,DIRECT'
+  - 'DOMAIN,mobile.events.data.microsoft.com,DIRECT'
+  - 'DOMAIN-SUFFIX,oplist.org,PROXY'
+  - 'DOMAIN-SUFFIX,jsdelivr.net,DIRECT'
+  - 'DOMAIN-SUFFIX,xvideos.com,Switch'
+  - 'DOMAIN-SUFFIX,xvideos-cdn.com,Switch'
+  - 'RULE-SET,my_direct,DIRECT'
+  # tailscale
+  - 'IP-CIDR,100.64.0.0/10,DIRECT'
+  - 'DOMAIN,stun.l.google.com,DIRECT'
+  - 'PROCESS-NAME,tailscaled,DIRECT'
+  - 'PROCESS-NAME,tailscale,DIRECT'
+  # aigc系列
+  - 'RULE-SET,my_aigc,AIGC'
+  - 'RULE-SET,bing,AIGC'
+  - 'RULE-SET,copilot,AIGC'
+  - 'RULE-SET,bard,AIGC'
+  - 'RULE-SET,openai,AIGC'
+  - 'RULE-SET,claude,AIGC'
+  # steam
+  - 'RULE-SET,steam,PROXY'
+  - 'RULE-SET,steam_cn,DIRECT'
+  # Telegram
+  - 'RULE-SET,telegram_domain,Telegram'
+  - 'RULE-SET,telegram_ip,Telegram'
+  - 'RULE-SET,telegram,Telegram'
+  # Notion
+  - 'DOMAIN,http-inputs-notion.splunkcloud.com,PROXY'
+  - 'RULE-SET,Notion,PROXY'
+  # Spotify
+  - 'DOMAIN,open.spotify.com,PROXY'
+  - 'DOMAIN-SUFFIX,akamaized.net,DIRECT'
+  - 'DOMAIN-SUFFIX,spotify.com,DIRECT'
+  - 'DOMAIN-SUFFIX,spotifycdn.com,DIRECT'
+  - 'DOMAIN-SUFFIX,scdn.co,DIRECT'
+  - 'DOMAIN-SUFFIX,branch.io,DIRECT'
+  - 'RULE-SET,Spotify,DIRECT'
+  # 微软系统相关常见可代理域
+  - 'DOMAIN-SUFFIX,microsoft.com,PROXY'
+  - 'DOMAIN-SUFFIX,windowsupdate.com,PROXY'
+  - 'DOMAIN-SUFFIX,live.com,PROXY'
+  - 'DOMAIN-SUFFIX,office.com,PROXY'
+  - 'DOMAIN,nav-edge.smartscreen.microsoft.com,PROXY'
+  # goole
+  - 'RULE-SET,google_domain,Google'
+  - 'RULE-SET,google_ip,Google'
+  - 'DOMAIN-SUFFIX,antigravity.google,PROXY'
+  - 'DOMAIN-SUFFIX,stats.cdnjtzy.com,PROXY'
+  - 'DOMAIN-SUFFIX,cdnjtzy.com,PROXY'
+  - 'DOMAIN-SUFFIX,rumt-zh.com,PROXY'
+  # 外网访问规则
+  - 'RULE-SET,geolocation-!cn,PROXY'
+  - 'RULE-SET,global,PROXY'
+  # 直连规则集
+  - 'RULE-SET,private,DIRECT'
+  - 'RULE-SET,cn_domain,DIRECT'
+  - 'RULE-SET,cn_ip,DIRECT'
+  # - 'GEOIP,CN,DIRECT'
+  # 内网直连
+  - 'GEOIP,LAN,DIRECT'
+  # 剩余参数
+  - 'MATCH,PROXY'

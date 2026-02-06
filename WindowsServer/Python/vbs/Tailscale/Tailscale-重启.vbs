@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py Tailscale restart", "", "runas", 0

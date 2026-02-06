@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py VmwareAutostartService restart", "", "runas", 0

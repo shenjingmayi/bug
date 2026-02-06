@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py mysql90 manual stop", "", "runas", 0

@@ -9,6 +9,17 @@ https://cdn.jsdelivr.net/gh/shenjingmayi/sjmy@main/文件路径
 https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/文件路径
 ```
 
+- 保证识别中文环境
+```pwsh
+cd D:\Code\GitProjects\sjmy\WindowsServer
+
+# 读取文件内容（使用 UTF-8 编码）
+$content = Get-Content -Path "check.ps1" -Encoding UTF8
+
+# 保存为 UTF-8 with BOM
+$content | Out-File -FilePath "check.ps1" -Encoding UTF8
+```
+
 ## 许可证
 
 本项目采用保留部分权利的许可证：

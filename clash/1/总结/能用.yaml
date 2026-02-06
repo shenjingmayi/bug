@@ -1,0 +1,14 @@
+proxies:
+  - client-fingerprint: chrome
+    delay: 1451
+    name: "\U0001F300其他17-IL | ⬇️ 1.7MB/s|0%|Netflix|Youtube|Openai"
+    password: cacb4d4fa26f4eed25e4d17a6370083c
+    port: 443
+    server: telaviv.sqx001.com
+    skip-cert-verify: true
+    sni: telaviv.sqx001.com
+    tls: true
+    type: http
+    udp: true
+    username: dmpyoary@mayorlogistic.com
+  

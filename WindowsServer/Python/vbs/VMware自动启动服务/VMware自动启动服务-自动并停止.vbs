@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py VmwareAutostartService auto stop", "", "runas", 0

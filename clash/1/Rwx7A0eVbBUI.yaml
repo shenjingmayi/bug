@@ -1,0 +1,471 @@
+mode: rule
+profile:
+  store-selected: true
+  fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+tun:
+  dns-hijack:
+  - 114.114.114.114
+  - 180.76.76.76
+  - 119.29.29.29
+  - 223.6.6.6
+  - 223.5.5.5
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+dns:
+  enable: true
+  ipv6: false
+  use-system-hosts: false
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver: [ https://223.6.6.6/dns-query, https://doh.pub/dns-query ]
+  fallback-filter: { geoip: true, ipcidr: [ 240.0.0.0/4, 0.0.0.0/32 ] }
+  fallback: [ 'tls://223.5.5.5:853', 'tls://119.29.29.29:853' ]
+  default-nameserver: [ 119.29.29.29, 223.5.5.5 ]
+proxies:
+- { name: 🌐 官网： xship.top, type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "⚠️  持续防控刷流和抢占带宽", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "🚀 当前免费订阅已触发风控", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "🌊 恢复时间：1/19 0:00", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "🔰 流速标准为油管1080P及以下", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "⚡️ 并发跑流前后台下载易触发", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "♻️ 当前提示节点无风控可应急使用", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "✨ 升级订阅畅享无限丝滑", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: "💻 前往 xship.top 查看详情", type: hysteria2, server: starlink-us2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 25131, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇸🇬 新加坡1, type: hysteria2, server: starlink-sgp.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡2, type: hysteria2, server: starlink-sgp2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡3, type: hysteria2, server: starlink-sgp3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡4, type: hysteria2, server: starlink-sgp4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡5, type: hysteria2, server: starlink-sgp5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡6, type: hysteria2, server: starlink-sgp6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡7, type: trojan, server: starlink-sgp.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡8, type: trojan, server: starlink-sgp2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡9, type: trojan, server: starlink-sgp3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡10, type: trojan, server: starlink-sgp4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡11, type: trojan, server: starlink-sgp5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇬 新加坡12, type: trojan, server: starlink-sgp6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本1, type: hysteria2, server: starlink-tko.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本2, type: hysteria2, server: starlink-tko2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本3, type: hysteria2, server: starlink-tko3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本4, type: hysteria2, server: starlink-tko4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本5, type: hysteria2, server: starlink-tko5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本6, type: hysteria2, server: starlink-tko6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本7, type: trojan, server: starlink-tko.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本8, type: trojan, server: starlink-tko2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本9, type: trojan, server: starlink-tko3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本10, type: trojan, server: starlink-tko4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本11, type: trojan, server: starlink-tko5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇯🇵 日本12, type: trojan, server: starlink-tko6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港1 IPLC🔒, type: hysteria2, server: starlink-hkx.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港2 IPLC🔒, type: hysteria2, server: starlink-hkx2.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港3 IPLC🔒, type: hysteria2, server: starlink-hkx3.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港4 IPLC🔒, type: hysteria2, server: starlink-hkx4.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港5 IPLC🔒, type: trojan, server: starlink-hkx.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港6 IPLC🔒, type: trojan, server: starlink-hkx2.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港7 IPLC🔒, type: trojan, server: starlink-hkx3.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港8 IPLC🔒, type: trojan, server: starlink-hkx4.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港9 家宽, type: hysteria2, server: starlink-hkt.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30005, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港10 家宽, type: hysteria2, server: hkt-ty-line-1.sudatech.store, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 21521, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港11 家宽, type: hysteria2, server: starlink-hkt.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30000, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港12 家宽, type: trojan, server: starlink-hkt.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30005, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港13 家宽, type: trojan, server: hkt-ty-line-1.sudatech.store, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 21521, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇰 香港14 家宽, type: trojan, server: starlink-hkt.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 30000, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇴 澳门1 IPLC🔒, type: trojan, server: z-hk.2513142.xyz, port: 10003, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇴 澳门2 IPLC🔒, type: trojan, server: z-hk2.2513142.xyz, port: 10003, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾1 家宽, type: hysteria2, server: starlink-tw4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 16301, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾2 家宽, type: hysteria2, server: starlink-tw.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 22101, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾3 家宽, type: hysteria2, server: starlink-tw2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 21542, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾4 家宽, type: hysteria2, server: starlink-tw3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 10505, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾5 家宽, type: hysteria2, server: starlink-tw4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 16303, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾6 家宽, type: trojan, server: starlink-tw4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 16301, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾7 家宽, type: trojan, server: starlink-tw.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 22101, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾8 家宽, type: trojan, server: starlink-tw2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 21542, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾9 家宽, type: trojan, server: starlink-tw3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 10505, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇳 台湾10 家宽, type: trojan, server: starlink-tw4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 16303, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇭 柬埔寨1 IPLC 家宽🔒, type: trojan, server: z-hk.2513142.xyz, port: 10004, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇭 柬埔寨2 IPLC 家宽🔒, type: trojan, server: z-hk2.2513142.xyz, port: 10004, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇭 菲律宾1 IPLC🔒, type: trojan, server: z-hk.2513142.xyz, port: 10001, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇭 菲律宾2 IPLC🔒, type: trojan, server: z-hk2.2513142.xyz, port: 10001, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇻🇳 越南1 IPLC 家宽🔒, type: trojan, server: z-hk.2513142.xyz, port: 10002, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇻🇳 越南2 IPLC 家宽🔒, type: trojan, server: z-hk2.2513142.xyz, port: 10002, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇾 马来西亚1🔒, type: trojan, server: z-sg1.2513142.xyz, port: 10007, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇾 马来西亚2🔒, type: trojan, server: z-sg2.2513142.xyz, port: 10007, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇩 印度尼西亚1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇩 印度尼西亚2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇹🇭 泰国1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10001, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇹🇭 泰国2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10001, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇳 蒙古1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10010, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇲🇳 蒙古2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10010, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇫 阿富汗1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10012, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇫 阿富汗2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10012, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇫🇯 斐济1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10015, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇫🇯 斐济2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10015, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇰🇷 韩国1, type: hysteria2, server: starlink-sol.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇷 韩国2, type: hysteria2, server: starlink-sol2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇷 韩国3, type: trojan, server: starlink-sol.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇷 韩国4, type: trojan, server: starlink-sol2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇳 印度1 家宽🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10006, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇳 印度2 家宽🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10006, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇳 印度3🔒, type: hysteria2, server: starlink-blr2.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇳 印度4🔒, type: trojan, server: starlink-blr2.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇰 巴基斯坦1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10011, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇵🇰 巴基斯坦2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10011, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇺🇸 美国1, type: hysteria2, server: starlink-sfo1.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国2, type: hysteria2, server: starlink-sfo2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国3, type: hysteria2, server: starlink-sfo3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国4, type: hysteria2, server: starlink-sfo4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国5, type: hysteria2, server: starlink-sfo5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国6, type: hysteria2, server: starlink-sfo6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国7, type: hysteria2, server: starlink-sfo7.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国8, type: hysteria2, server: starlink-sfo8.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国9, type: trojan, server: starlink-sfo3.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国10, type: trojan, server: starlink-sfo4.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国11, type: trojan, server: starlink-sfo5.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国12, type: trojan, server: starlink-sfo6.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国13, type: trojan, server: starlink-sfo7.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国14, type: trojan, server: starlink-sfo8.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国15, type: trojan, server: starlink-sfo2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇸 美国16, type: trojan, server: starlink-sfo1.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 20443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇺 古巴1🔒, type: trojan, server: z-jp1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10004, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇺 古巴2🔒, type: trojan, server: z-jp2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10004, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇧🇲 百慕大1🔒, type: trojan, server: z-jp1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇧🇲 百慕大2🔒, type: trojan, server: z-jp2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇬🇱 格陵兰岛1🔒, type: trojan, server: z-jp1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10003, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇬🇱 格陵兰岛2🔒, type: trojan, server: z-jp2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10003, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇺 澳大利亚1, type: hysteria2, server: starlink-syd2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇦🇺 澳大利亚2, type: trojan, server: starlink-syd2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇿 新西兰1🔒, type: trojan, server: z-sg1.2513142.xyz, port: 10005, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇿 新西兰2🔒, type: trojan, server: z-sg2.2513142.xyz, port: 10005, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇦🇪 阿联酋1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10009, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇦🇪 阿联酋2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10009, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇦 沙特阿拉伯1🔒, type: trojan, server: z-sg1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10004, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇦 沙特阿拉伯2🔒, type: trojan, server: z-sg2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10004, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇩🇪 德国1, type: hysteria2, server: starlink-de1.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇩🇪 德国2, type: hysteria2, server: starlink-de2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇩🇪 德国3, type: trojan, server: starlink-de1.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇩🇪 德国4, type: trojan, server: starlink-de2.2513142.xyz, password: 7sATgXKIjrUuCHWL2bgE7QSY, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇩🇪 德国5🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10025, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇩🇪 德国6🔒, type: trojan, server: 158.180.36.225, password: 升级订阅解锁全部节点, port: 33850, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇦🇹 奥地利1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10028, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇹 奥地利2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10028, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇭 瑞士1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10014, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇭 瑞士2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10014, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇫🇷 法国1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10023, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇫🇷 法国2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10023, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇫🇷 法国3🔒, type: trojan, server: starlink-par.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇫🇷 法国4🔒, type: trojan, server: starlink-par2.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇬🇧 英国1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10015, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇬🇧 英国2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10015, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇪 爱尔兰1🔒, type: hysteria2, server: starlink-irl.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇪 爱尔兰2🔒, type: trojan, server: starlink-irl.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇹 意大利1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10017, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇹 意大利2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10017, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇻🇦 梵蒂冈1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10026, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇻🇦 梵蒂冈2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10026, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇪🇸 西班牙1🔒, type: hysteria2, server: starlink-mad.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇪🇸 西班牙2🔒, type: trojan, server: starlink-mad.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇹 葡萄牙1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10019, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇹 葡萄牙2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10019, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇱 荷兰1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10016, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇱 荷兰2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10016, sni: www.cloudflare.com, skip-cert-verify: true, udp: true  }
+- { name: 🇩🇰 丹麦1🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10020, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇩🇰 丹麦2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10020, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇪 瑞典1🔒, type: hysteria2, server: starlink-sto.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇪 瑞典2🔒, type: trojan, server: starlink-sto.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇴 挪威1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10012, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇴 挪威2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10012, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇫🇮 芬兰1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10018, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇫🇮 芬兰2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10018, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇸 冰岛1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10013, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇸 冰岛2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10013, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇿 捷克1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10008, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇨🇿 捷克2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10008, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇸🇰 斯洛伐克1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10027, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇸🇰 斯洛伐克2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10027, sni: www.cloudflare.com, skip-cert-verify: true }
+- { name: 🇵🇱 波兰1 家宽🔒, type: hysteria2, server: 212.127.78.119, port: 20185, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇵🇱 波兰2 家宽🔒, type: trojan, server: 212.127.78.119, port: 20181, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇺 匈牙利1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10007, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇭🇺 匈牙利2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10007, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇰 北马其顿1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10029, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇲🇰 北马其顿2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10029, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇧🇬 保加利亚1🔒, type: hysteria2, server: 79.124.29.25, port: 20045, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇧🇬 保加利亚2🔒, type: trojan, server: 79.124.29.25, port: 20041, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇷🇴 罗马尼亚1🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10021, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇷🇴 罗马尼亚2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10021, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇩 摩尔多瓦1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10005, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇩 摩尔多瓦2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10005, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇦 乌克兰1 家宽🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10006, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇺🇦 乌克兰2 家宽🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10006, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇷🇺 俄罗斯1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10010, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇷🇺 俄罗斯2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10010, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇱🇹 立陶宛1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10011, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇱🇹 立陶宛2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10011, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇱 以色列1🔒, type: trojan, server: z-eu1.2513142.xyz, port: 10002, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇱 以色列2🔒, type: trojan, server: z-eu2.2513142.xyz, port: 10002, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇮🇶 伊拉克1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10030, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇮🇶 伊拉克2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10030, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇹🇷 土耳其1🔒, type: hysteria2, server: 185.36.127.46, port: 20195, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇹🇷 土耳其2🔒, type: trojan, server: 185.36.127.46, port: 20191, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇬 吉尔吉斯斯坦1🔒, type: hysteria2, server: 188.240.213.45, port: 20075, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇬 吉尔吉斯斯坦2🔒, type: trojan, server: 188.240.213.45, port: 20071, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇿 哈萨克斯坦1🔒, type: hysteria2, server: 89.218.15.134, port: 20285, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇰🇿 哈萨克斯坦2🔒, type: trojan, server: 89.218.15.134, port: 20281, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇲🇽 墨西哥1🔒, type: trojan, server: z-us1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10001, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇲🇽 墨西哥2🔒, type: trojan, server: z-us2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10001, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇦 加拿大1🔒, type: hysteria2, server: starlink-tor.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇦 加拿大2🔒, type: trojan, server: starlink-tor.2513142.xyz, password: 升级订阅解锁全部节点, port: 443, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇵🇪 秘鲁1🔒, type: hysteria2, server: 161.132.51.133, password: 升级订阅解锁全部节点, port: 20045, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇵🇪 秘鲁2🔒, type: trojan, server: 161.132.51.133, password: 升级订阅解锁全部节点, port: 20041, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇧🇷 巴西1🔒, type: trojan, server: starlink-bra.2513142.xyz, password: 升级订阅解锁全部节点, port: 28200, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇧🇷 巴西2🔒, type: trojan, server: starlink-bra2.2513142.xyz, password: 升级订阅解锁全部节点, port: 28200, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇱 智利1🔒, type: trojan, server: z-us1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇨🇱 智利2🔒, type: trojan, server: z-us2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10002, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇷 阿根廷1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10009, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇷 阿根廷2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10009, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇸🇴 索马里1🔒, type: trojan, server: z-jp1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10006, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇸🇴 索马里2🔒, type: trojan, server: z-jp2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10006, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇪🇬 埃及1🔒, type: trojan, server: z-jp1.2513142.xyz, port: 10008, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇪🇬 埃及2🔒, type: trojan, server: z-jp2.2513142.xyz, port: 10008, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇬 尼日利亚1🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10022, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇳🇬 尼日利亚2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10022, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇿🇦 南非1🔒, type: hysteria2, server: 102.219.85.236, port: 20265, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇿🇦 南非2🔒, type: trojan, server: 102.219.85.236, port: 20261, password: 升级订阅解锁全部节点, sni: www.cloudflare.com, skip-cert-verify: true, udp: true }
+- { name: 🇦🇶 南极洲1🔒, type: trojan, server: z-jp1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10007, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇦🇶 南极洲2🔒, type: trojan, server: z-jp2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10007, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇰🇵 朝鲜1🔒, type: trojan, server: z-eu1.2513142.xyz, password: 升级订阅解锁全部节点, port: 10031, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+- { name: 🇰🇵 朝鲜2🔒, type: trojan, server: z-eu2.2513142.xyz, password: 升级订阅解锁全部节点, port: 10031, skip-cert-verify: true, sni: www.cloudflare.com, udp: true }
+proxy-groups:
+- name: "✨ 星链Starlink"
+  type: select
+  proxies:
+  - "🌐 官网： xship.top"
+  - "⚠️  持续防控刷流和抢占带宽"
+  - "🚀 当前免费订阅已触发风控"
+  - "🌊 恢复时间：1/19 0:00"
+  - "🔰 流速标准为油管1080P及以下"
+  - "⚡️ 并发跑流前后台下载易触发"
+  - "♻️ 当前提示节点无风控可应急使用"
+  - "✨ 升级订阅畅享无限丝滑"
+  - "💻 前往 xship.top 查看详情"
+  - 🇸🇬 新加坡1
+  - 🇸🇬 新加坡2
+  - 🇸🇬 新加坡3
+  - 🇸🇬 新加坡4
+  - 🇸🇬 新加坡5
+  - 🇸🇬 新加坡6
+  - 🇸🇬 新加坡7
+  - 🇸🇬 新加坡8
+  - 🇸🇬 新加坡9
+  - 🇸🇬 新加坡10
+  - 🇸🇬 新加坡11
+  - 🇸🇬 新加坡12
+  - 🇯🇵 日本1
+  - 🇯🇵 日本2
+  - 🇯🇵 日本3
+  - 🇯🇵 日本4
+  - 🇯🇵 日本5
+  - 🇯🇵 日本6
+  - 🇯🇵 日本7
+  - 🇯🇵 日本8
+  - 🇯🇵 日本9
+  - 🇯🇵 日本10
+  - 🇯🇵 日本11
+  - 🇯🇵 日本12
+  - 🇭🇰 香港1 IPLC🔒
+  - 🇭🇰 香港2 IPLC🔒
+  - 🇭🇰 香港3 IPLC🔒
+  - 🇭🇰 香港4 IPLC🔒
+  - 🇭🇰 香港5 IPLC🔒
+  - 🇭🇰 香港6 IPLC🔒
+  - 🇭🇰 香港7 IPLC🔒
+  - 🇭🇰 香港8 IPLC🔒
+  - 🇭🇰 香港9 家宽
+  - 🇭🇰 香港10 家宽
+  - 🇭🇰 香港11 家宽
+  - 🇭🇰 香港12 家宽
+  - 🇭🇰 香港13 家宽
+  - 🇭🇰 香港14 家宽
+  - 🇲🇴 澳门1 IPLC🔒
+  - 🇲🇴 澳门2 IPLC🔒
+  - 🇨🇳 台湾1 家宽
+  - 🇨🇳 台湾2 家宽
+  - 🇨🇳 台湾3 家宽
+  - 🇨🇳 台湾4 家宽
+  - 🇨🇳 台湾5 家宽
+  - 🇨🇳 台湾6 家宽
+  - 🇨🇳 台湾7 家宽
+  - 🇨🇳 台湾8 家宽
+  - 🇨🇳 台湾9 家宽
+  - 🇨🇳 台湾10 家宽
+  - 🇰🇭 柬埔寨1 IPLC 家宽🔒
+  - 🇰🇭 柬埔寨2 IPLC 家宽🔒  
+  - 🇵🇭 菲律宾1 IPLC🔒
+  - 🇵🇭 菲律宾2 IPLC🔒
+  - 🇻🇳 越南1 IPLC 家宽🔒  
+  - 🇻🇳 越南2 IPLC 家宽🔒    
+  - 🇲🇾 马来西亚1🔒
+  - 🇲🇾 马来西亚2🔒
+  - 🇮🇩 印度尼西亚1🔒
+  - 🇮🇩 印度尼西亚2🔒
+  - 🇹🇭 泰国1🔒
+  - 🇹🇭 泰国2🔒
+  - 🇲🇳 蒙古1🔒
+  - 🇲🇳 蒙古2🔒
+  - 🇦🇫 阿富汗1🔒
+  - 🇦🇫 阿富汗2🔒
+  - 🇫🇯 斐济1🔒
+  - 🇫🇯 斐济2🔒
+  - 🇰🇷 韩国1
+  - 🇰🇷 韩国2
+  - 🇰🇷 韩国3
+  - 🇰🇷 韩国4
+  - 🇮🇳 印度1 家宽🔒
+  - 🇮🇳 印度2 家宽🔒
+  - 🇮🇳 印度3🔒
+  - 🇮🇳 印度4🔒
+  - 🇵🇰 巴基斯坦1🔒
+  - 🇵🇰 巴基斯坦2🔒
+  - 🇺🇸 美国1
+  - 🇺🇸 美国2
+  - 🇺🇸 美国3
+  - 🇺🇸 美国4
+  - 🇺🇸 美国5
+  - 🇺🇸 美国6
+  - 🇺🇸 美国7
+  - 🇺🇸 美国8
+  - 🇺🇸 美国9
+  - 🇺🇸 美国10
+  - 🇺🇸 美国11
+  - 🇺🇸 美国12
+  - 🇺🇸 美国13
+  - 🇺🇸 美国14
+  - 🇺🇸 美国15
+  - 🇺🇸 美国16
+  - 🇨🇺 古巴1🔒
+  - 🇨🇺 古巴2🔒
+  - 🇧🇲 百慕大1🔒
+  - 🇧🇲 百慕大2🔒
+  - 🇬🇱 格陵兰岛1🔒
+  - 🇬🇱 格陵兰岛2🔒
+  - 🇦🇺 澳大利亚1
+  - 🇦🇺 澳大利亚2
+  - 🇳🇿 新西兰1🔒
+  - 🇳🇿 新西兰2🔒
+  - 🇦🇪 阿联酋1🔒
+  - 🇦🇪 阿联酋2🔒
+  - 🇸🇦 沙特阿拉伯1🔒
+  - 🇸🇦 沙特阿拉伯2🔒
+  - 🇩🇪 德国1
+  - 🇩🇪 德国2
+  - 🇩🇪 德国3
+  - 🇩🇪 德国4
+  - 🇩🇪 德国5🔒
+  - 🇩🇪 德国6🔒
+  - 🇦🇹 奥地利1🔒
+  - 🇦🇹 奥地利2🔒
+  - 🇨🇭 瑞士1🔒
+  - 🇨🇭 瑞士2🔒 
+  - 🇫🇷 法国1🔒
+  - 🇫🇷 法国2🔒
+  - 🇫🇷 法国3🔒
+  - 🇫🇷 法国4🔒
+  - 🇬🇧 英国1🔒
+  - 🇬🇧 英国2🔒
+  - 🇮🇪 爱尔兰1🔒
+  - 🇮🇪 爱尔兰2🔒
+  - 🇮🇹 意大利1🔒
+  - 🇮🇹 意大利2🔒
+  - 🇻🇦 梵蒂冈1🔒
+  - 🇻🇦 梵蒂冈2🔒
+  - 🇪🇸 西班牙1🔒
+  - 🇪🇸 西班牙2🔒
+  - 🇵🇹 葡萄牙1🔒
+  - 🇵🇹 葡萄牙2🔒
+  - 🇳🇱 荷兰1🔒
+  - 🇳🇱 荷兰2🔒
+  - 🇩🇰 丹麦1🔒
+  - 🇩🇰 丹麦2🔒 
+  - 🇸🇪 瑞典1🔒
+  - 🇸🇪 瑞典2🔒
+  - 🇳🇴 挪威1🔒
+  - 🇳🇴 挪威2🔒
+  - 🇫🇮 芬兰1🔒
+  - 🇫🇮 芬兰2🔒
+  - 🇮🇸 冰岛1🔒
+  - 🇮🇸 冰岛2🔒
+  - 🇨🇿 捷克1🔒
+  - 🇨🇿 捷克2🔒
+  - 🇸🇰 斯洛伐克1🔒
+  - 🇸🇰 斯洛伐克2🔒
+  - 🇵🇱 波兰1 家宽🔒
+  - 🇵🇱 波兰2 家宽🔒  
+  - 🇭🇺 匈牙利1🔒 
+  - 🇭🇺 匈牙利2🔒
+  - 🇲🇰 北马其顿1🔒
+  - 🇲🇰 北马其顿2🔒
+  - 🇧🇬 保加利亚1🔒
+  - 🇧🇬 保加利亚2🔒  
+  - 🇷🇴 罗马尼亚1🔒
+  - 🇷🇴 罗马尼亚2🔒
+  - 🇲🇩 摩尔多瓦1🔒
+  - 🇲🇩 摩尔多瓦2🔒
+  - 🇺🇦 乌克兰1 家宽🔒
+  - 🇺🇦 乌克兰2 家宽🔒
+  - 🇷🇺 俄罗斯1🔒  
+  - 🇷🇺 俄罗斯2🔒
+  - 🇱🇹 立陶宛1🔒
+  - 🇱🇹 立陶宛2🔒
+  - 🇮🇱 以色列1🔒
+  - 🇮🇱 以色列2🔒
+  - 🇮🇶 伊拉克1🔒
+  - 🇮🇶 伊拉克2🔒
+  - 🇹🇷 土耳其1🔒
+  - 🇹🇷 土耳其2🔒
+  - 🇰🇬 吉尔吉斯斯坦1🔒
+  - 🇰🇬 吉尔吉斯斯坦2🔒
+  - 🇰🇿 哈萨克斯坦1🔒
+  - 🇰🇿 哈萨克斯坦2🔒
+  - 🇲🇽 墨西哥1🔒
+  - 🇲🇽 墨西哥2🔒
+  - 🇨🇦 加拿大1🔒
+  - 🇨🇦 加拿大2🔒
+  - 🇵🇪 秘鲁1🔒
+  - 🇵🇪 秘鲁2🔒  
+  - 🇧🇷 巴西1🔒
+  - 🇧🇷 巴西2🔒
+  - 🇨🇱 智利1🔒
+  - 🇨🇱 智利2🔒
+  - 🇦🇷 阿根廷1🔒
+  - 🇦🇷 阿根廷2🔒  
+  - 🇸🇴 索马里1🔒
+  - 🇸🇴 索马里2🔒  
+  - 🇪🇬 埃及1🔒
+  - 🇪🇬 埃及2🔒
+  - 🇳🇬 尼日利亚1🔒
+  - 🇳🇬 尼日利亚2🔒
+  - 🇿🇦 南非1🔒
+  - 🇿🇦 南非2🔒
+  - 🇦🇶 南极洲1🔒
+  - 🇦🇶 南极洲2🔒
+  - 🇰🇵 朝鲜1🔒
+  - 🇰🇵 朝鲜2🔒
+rules:
+- 'DOMAIN-SUFFIX,xship.top,DIRECT'
+- 'GEOIP,CN,DIRECT'
+- 'DOMAIN-SUFFIX,t.me,✨ 星链Starlink'
+- 'DOMAIN-SUFFIX,telegram.org,✨ 星链Starlink'
+- 'DOMAIN-SUFFIX,telegram.me,✨ 星链Starlink'
+- 'DOMAIN-SUFFIX,telegra.ph,✨ 星链Starlink'
+- 'IP-CIDR,91.108.4.0/22,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR,91.108.8.0/21,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR,91.108.16.0/22,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR,91.108.56.0/22,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR,149.154.160.0/20,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR6,2001:67c:4e8::/48,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR6,2001:b28:f23d::/48,✨ 星链Starlink,no-resolve'
+- 'IP-CIDR6,2001:b28:f23f::/48,✨ 星链Starlink,no-resolve'
+- 'MATCH,✨ 星链Starlink'

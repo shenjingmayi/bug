@@ -1,0 +1,158 @@
+{
+  "actionType": [
+    {
+      "id": 0,
+      "name": "自定义操作",
+      "action": ""
+    },
+    {
+      "id": 1,
+      "name": "自动",
+      "action": "auto"
+    },
+    {
+      "id": 2,
+      "name": "自动并运行",
+      "action": "auto run"
+    },
+    {
+      "id": 3,
+      "name": "自动并停止",
+      "action": "auto stop"
+    },
+    {
+      "id": 4,
+      "name": "自动并重启",
+      "action": "auto restart"
+    },
+    {
+      "id": 5,
+      "name": "手动",
+      "action": "manual"
+    },
+    {
+      "id": 6,
+      "name": "手动并运行",
+      "action": "manual run"
+    },
+    {
+      "id": 7,
+      "name": "手动并停止",
+      "action": "manual stop"
+    },
+    {
+      "id": 8,
+      "name": "手动并重启",
+      "action": "manual restart"
+    },
+    {
+      "id": 9,
+      "name": "禁用",
+      "action": "disabled"
+    },
+    {
+      "id": 10,
+      "name": "禁用并运行",
+      "action": "run disabled"
+    },
+    {
+      "id": 11,
+      "name": "禁用并停止",
+      "action": "stop disabled"
+    },
+    {
+      "id": 12,
+      "name": "禁用并重启",
+      "action": "restart disabled"
+    },
+    {
+      "id": 13,
+      "name": "运行",
+      "action": "run"
+    },
+    {
+      "id": 14,
+      "name": "停止",
+      "action": "stop"
+    },
+    {
+      "id": 15,
+      "name": "重启",
+      "action": "restart"
+    }
+  ],
+  "fileList": [
+    {
+      "name": "Edge更新服务",
+      "actionsList": [0,2,11,7,6],
+      "serviceList": [
+        "edgeupdate",
+        "edgeupdatem",
+        "edgeupdate1db8fc699f9368b",
+        "edgeupdate1dbf14fa58159f6"
+      ]
+    },
+    {
+      "name": "MySQL主服务",
+      "actionsList": [0,2,11,7,6,15],
+      "serviceList": [
+        "mysql90"
+      ]
+    },
+    {
+      "name": "Xbox相关服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "XblGameSave",
+        "XboxNetApiSvc",
+        "XblAuthManager",
+        "XboxGipSvc"
+      ]
+    },
+    {
+      "name": "WPS云服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "XblGameSave",
+        "XboxNetApiSvc",
+        "XblAuthManager",
+        "XboxGipSvc"
+      ]
+    },
+    {
+      "name": "VMware自动启动服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "VmwareAutostartService"
+      ]
+    },
+    {
+      "name": "Tailscale",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "Tailscale"
+      ]
+    },
+    {
+      "name": "手机服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "PhoneSvc"
+      ]
+    },
+    {
+      "name": "Listary服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "ListaryServiceV2"
+      ]
+    },
+    {
+      "name": "抖音服务",
+      "actionsList": [0,3,2,11,7,6,15],
+      "serviceList": [
+        "DouyinElevationService"
+      ]
+    }
+  ]
+}

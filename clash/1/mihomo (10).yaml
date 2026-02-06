@@ -1,0 +1,5173 @@
+proxies:
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F0\U0001F1F7KR_1 |17.6MB/s|GPT|YT-KR|NF|GM|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy23.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy23.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - down: 100 Mbps
+    fast-open: true
+    name: "\U0001F1FA\U0001F1F8US_1 |6.4MB/s|GPT|NF|GM"
+    password: dongtaiwang.com
+    port: 22222
+    server: 208.87.243.187
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: 100 Mbps
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 100
+    name: "\U0001F1FA\U0001F1F8US_2 |4.4MB/s|GPT|NF|GM|49%"
+    port: 40528
+    protocol: udp
+    server: 208.87.243.187
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 100
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3 |2.9MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 10004
+    server: 222.113.18.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: /Telegram @WangCai2 /?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    delay: 1752
+    down: 1000 Mbps
+    name: "\U0001F1FA\U0001F1F8US_4 |4.6MB/s|GPT|NF"
+    port: 11512
+    protocol: udp
+    server: 108.181.24.77
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: 'true'
+    up: 1000 Mbps
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1FA\U0001F1F8US_5 |3.1MB/s|GPT|NF|GM"
+    port: 17549
+    server: 208.87.243.151
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_6 |3.1MB/s|GPT|NF|GM|53%"
+    obfs: ''
+    obfs-password: ''
+    password: J8Had1nwTgkNvWNN0WrucWq38
+    port: 33763
+    server: 146.190.51.60
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_7 |3.0MB/s|GPT|NF|GM"
+    password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+    port: 3234
+    server: 209.141.47.127
+    skip-cert-verify: true
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_8 |4.0MB/s|GPT|NF|D+|40%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 108.181.4.223
+    skip-cert-verify: true
+    sni: api.push.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F0\U0001F1F7KR_2 |9.1MB/s|GPT|YT-KR|NF|GM|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy26.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy26.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_9 |3.7MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.183
+    skip-cert-verify: true
+    sni: api.push.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_10 |3.9MB/s|GPT|NF|D+|GM|40%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 108.181.4.67
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_11 |3.6MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.39
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_12 |2.9MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.197
+    skip-cert-verify: true
+    sni: api.push.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_13 |3.0MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.139
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_14 |2.9MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.195
+    skip-cert-verify: true
+    sni: api.push.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_15 |3.2MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.41
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - auth: 73bde0e7-dd56-4fc0-81d2-e594977d649b
+    name: "\U0001F1F9\U0001F1F7TR_1 |3.0MB/s|GPT|NF|D+|GM"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 73bde0e7-dd56-4fc0-81d2-e594977d649b
+    port: 20957
+    server: nexiateq.688997.xyz
+    skip-cert-verify: true
+    sni: nexiateq.688997.xyz
+    type: hysteria2
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_16 |4.0MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.133
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_17 |2.9MB/s|GPT|NF|D+|GM|40%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 108.181.5.199
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_18 |1.6MB/s|GPT|NF|D+|34%"
+    obfs: ''
+    obfs-password: ''
+    password: 5CBqBh6MeDq6GajcilBiDg==
+    port: 61001
+    server: 192.227.152.86
+    skip-cert-verify: true
+    sni: 192-227-152-86.nip.io
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1086
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_1 |2.5MB/s|GPT|YT-FR|NF"
+    obfs: ''
+    port: 15010
+    protocol: ''
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - name: "\U0001F1E8\U0001F1E6CA_1 |1.5MB/s|GPT|YT-CA|NF|GM"
+    network: ws
+    port: 80
+    server: 104.18.26.90
+    type: vless
+    udp: true
+    uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+    ws-opts:
+      headers:
+        Host: blaze-can-118.blazecanada.site
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: /?ed=2560/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_19 |3.8MB/s|GPT|NF|D+|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 17cd0b20-5fc7-4683-889f-5521130e07ae
+    port: 35000
+    server: 208.87.243.57
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - auth: 9ed85c5c-dbcc-4297-bef7-a8f4619d99a9
+    name: "\U0001F1F9\U0001F1F7TR_2 |3.0MB/s|GPT|NF|D+|GM"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 9ed85c5c-dbcc-4297-bef7-a8f4619d99a9
+    port: 20957
+    server: nexiateq.688997.xyz
+    skip-cert-verify: true
+    sni: nexiateq.688997.xyz
+    type: hysteria2
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1E6CA_2 |3.5MB/s|GPT|YT-CA|NF|GM|47%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy41.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy41.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_1 |3.6MB/s|GPT|YT-NL|NF|66%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy42.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy42.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_20 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 167.68.11.188
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1EB\U0001F1F7FR_2 |3.3MB/s|GPT|NF"
+    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    port: 56704
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: dxobg4azmk.gafnode.sbs
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_3 |4.1MB/s|GPT|YT-FR|NF|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy39.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy39.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1F3\U0001F1F1NL_2 |3.9MB/s|GPT|YT-NL|NF|16%"
+    obfs: ''
+    port: 14241
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1FA\U0001F1F8US_21 |2.1MB/s|GPT|YT-KR|NF|D+|GM"
+    network: ws
+    port: 443
+    server: 130.162.130.105
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cv.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cv.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8US_22 |4.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.53.190.63
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+    servername: jp.laoyoutiao.link
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1F9IT_1 |3.0MB/s|GPT|YT-IT|NF|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy40.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy40.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1 |1.8MB/s|GPT|YT-KR|NF|D+|GM"
+    network: ws
+    port: 30037
+    server: 14.38.253.135
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_1 |2.2MB/s|GPT|YT-DE|NF|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy38.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy38.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1 |2.5MB/s|GPT|YT-VN|NF|GM|0%"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.30
+    type: ss
+    udp: true
+  - name: "\U0001F1F8\U0001F1ECSG_1 |2.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.11
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2048
+    xudp: true
+    servername: sg.laoyoutiao.link
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_23 |1.3MB/s|GPT|NF|0%"
+    network: ws
+    port: 443
+    server: ssssssssssssfffffffgh.2032.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    ws-opts:
+      headers:
+        Host: ssssssssssssfffffffgh.2032.pp.ua
+      path: /6We3U9Df1WGxgFnoFPw1
+    xudp: true
+    servername: ssssssssssssfffffffgh.2032.pp.ua
+  - auth: 5CBqBh6MeDq6GajcilBiDg==
+    name: "\U0001F1FA\U0001F1F8US_24 |1.9MB/s|GPT|NF|D+|34%"
+    password: 5CBqBh6MeDq6GajcilBiDg==
+    port: 61001
+    server: 192-227-152-86.nip.io
+    skip-cert-verify: true
+    sni: 192-227-152-86.nip.io
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1F3IN_1 |1.6MB/s|GPT|YT-IN|NF|GM|47%"
+    obfs: ''
+    obfs-password: ''
+    password: 77af4ee7-c181-4ddc-afb5-5d223d608371
+    port: 55215
+    server: shy37.zqjc.cloud
+    skip-cert-verify: true
+    sni: shy37.zqjc.cloud
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_25 |1.5MB/s|GPT|YT-JP|D+|GM"
+    network: ws
+    port: 443
+    server: 160.16.56.195
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_26 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 199.34.228.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US_27 |1.7MB/s|YT-TW|NF|D+"
+    network: ws
+    port: 81
+    server: 210.61.97.241
+    tls: true
+    type: vless
+    udp: true
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    ws-opts:
+      headers:
+        Host: nc.ylka.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: nc.ylka.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8US_28 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 46.202.30.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_29 |1.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 25.26.27.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.104 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_30 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.170.166.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK_1 |2.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.83.2.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_31 |1.1MB/s|NF"
+    network: ws
+    port: 80
+    server: 141.193.213.10
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /Telegram@V2ray_Alpha
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_32 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.158
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_33 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 69.84.182.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_34 |3.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.69
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: cs.laoyoutiao.link
+      path: /
+    servername: cs.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_35 |1.0MB/s|GPT|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 156.238.18.163
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: yd.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: yd.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_36 |2.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.107
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2"
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_37 |3.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.176.26.63
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /TelegramU0001F1E8U0001F1F3
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_38 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.183
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_39 |1.0MB/s|NF|D+"
+    network: ws
+    port: 80
+    server: 141.193.213.211
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: /Telegram@WangCai2/?ed
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_40 |2.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 188.42.89.213
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /?ed=2560
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_41 |1.7MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.254.140.177
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_42 |3.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 160.79.104.188
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 2634
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7FR_4 |3.1MB/s|GPT|YT-FR|NF"
+    obfs: ''
+    port: 46938
+    protocol: ''
+    server: 195.154.200.178
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+  - name: "\U0001F1FA\U0001F1F8US_43 |2.0MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 91.193.58.187
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /freecodes蘇小檸|華東電訊|解鎖Netflix
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1665
+    down: 100
+    name: "\U0001F1F7\U0001F1FARU_1 |1.5MB/s|YT-RU"
+    port: 62003
+    protocol: udp
+    server: 176.32.35.226
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 100
+  - name: "\U0001F1FA\U0001F1F8US_44 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 192.0.63.213
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /
+    servername: jp.laoyoutiao.link
+  - delay: 2081
+    name: "\U0001F1ED\U0001F1F0HK_2 |1.2MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 92.243.74.29
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+      path: /TelegramU0001F1E8U0001F1F3
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_45 |1.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.180
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - auth: 1b56f848-da6a-4bb8-aa12-00b811f824dc
+    name: "\U0001F1F9\U0001F1F7TR_3 |2.1MB/s|GPT|NF|D+|GM"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 1b56f848-da6a-4bb8-aa12-00b811f824dc
+    port: 20957
+    server: nexiateq.688997.xyz
+    skip-cert-verify: true
+    sni: nexiateq.688997.xyz
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_46 |3.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 63.141.128.102
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: xn.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: xn.bgm2024.dpdns.org
+  - name: "\U0001F1E6\U0001F1FAAU_1 |7.7MB/s|GPT|YT-GB|NF|37%"
+    password: LiMoAlKI
+    port: 11641
+    server: 36.151.251.59
+    skip-cert-verify: true
+    sni: www.baidu.com
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_47 |2.1MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 443
+    server: 130.162.130.105
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: xn.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: xn.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8US_48 |1.1MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 91.193.58.4
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.115 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - auth: 1b56f848-da6a-4bb8-aa12-00b811f824dc
+    name: "\U0001F1F0\U0001F1F7KR_3 |1.2MB/s|GPT|NF|D+|0%"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 1b56f848-da6a-4bb8-aa12-00b811f824dc
+    port: 20357
+    server: nexiahg.688997.xyz
+    skip-cert-verify: true
+    sni: nexiahg.688997.xyz
+    type: hysteria2
+    udp: true
+  - client-fingerprint: random
+    name: "\U0001F1E9\U0001F1EADE_2 |3.4MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 104.18.26.90
+    tls: true
+    type: vless
+    udp: true
+    uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+    ws-opts:
+      headers:
+        Host: barayeiranmahsang.ghormehsabzi.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+    servername: barayeiranmahsang.ghormehsabzi.dpdns.org
+  - cipher: aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5JP_2 |2.8MB/s|GPT|NF|D+|47%"
+    password: 7409ce50-b0d7-4889-a630-2f043eba41eb
+    port: 43303
+    server: 1.hublink.media
+    type: ss
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE_3 |2.7MB/s|GPT|YT-DE|NF|17%"
+    network: ws
+    port: 8080
+    server: Hh.somo44.sbs
+    type: vless
+    udp: true
+    uuid: 9471a8c4-2f95-4a95-b869-5e31b9bc4a9b
+    ws-opts:
+      headers:
+        Host: Hoo.somo44.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /hhvghhv
+    xudp: true
+  - alpn:
+      - h3
+      - h2
+    client-fingerprint: randomized
+    name: "\U0001F1E8\U0001F1EDCH_1 |1.3MB/s|GPT|NF"
+    network: ws
+    port: 2053
+    server: wouldyoumarriemepleasefuckthesystem2.siasia.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce62ee5e-e316-46af-b967-4588a5e8e66c
+    ws-opts:
+      headers:
+        Host: hheydudethisworldisshet.siasia.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /apiii
+    xudp: true
+    servername: hheydudethisworldisshet.siasia.ir
+  - name: "\U0001F1FA\U0001F1F8US_49 |1.9MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 91.193.58.202
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: cs.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_1 |1.7MB/s|GPT|3%"
+    network: ws
+    port: 2096
+    server: 104.18.26.90
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+    ws-opts:
+      headers:
+        Host: 51PsHq6RqP.vPbEtHoRvP002.iNfO
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: 51PsHq6RqP.vPbEtHoRvP002.iNfO
+  - name: "\U0001F1FA\U0001F1F8US_50 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.199
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_51 |1.3MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.37
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_52 |1.6MB/s|NF|D+"
+    network: ws
+    port: 80
+    server: 185.18.184.66
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: hello.96xckkzx.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /?ed=2048
+    xudp: true
+    servername: hello.96xckkzx.workers.dev
+  - name: "\U0001F1F8\U0001F1ECSG_2 |1.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.58
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2048
+    xudp: true
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4 |1.4MB/s|GPT|NF"
+    network: ws
+    password: AQYZMBIoZd
+    port: 8443
+    server: 104.25.197.102
+    skip-cert-verify: false
+    sni: cdn65667.boshrachoice.ir
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /?ed=2048
+  - name: "\U0001F1ED\U0001F1F0HK_3 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.243.246.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.104 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_53 |1.8MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.242
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - alpn:
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EADE_5 |1.5MB/s|GPT|NF|D+|GM|42%"
+    network: ws
+    port: 443
+    server: 104.17.182.58
+    tls: true
+    type: vless
+    udp: true
+    uuid: c1601a96-febd-4baa-8fe3-17ca8f4121bd
+    ws-opts:
+      headers:
+        Host: frieren.albedo.ddns-ip.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /proxyip=ayaka.shorekeeper.ir
+    xudp: true
+    servername: frieren.albedo.ddns-ip.net
+  - name: "\U0001F1ED\U0001F1F0HK_4 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 103.169.142.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_54 |1.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 104.21.26.17
+    tls: true
+    type: vless
+    udp: true
+    uuid: cf8c791e-9d0b-4e90-aaf6-41ac62468416
+    ws-opts:
+      headers:
+        Host: iiiiiiiiiiiio.459.pp.ua
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: /dtBdvnoJO8180gomOew3d
+    xudp: true
+    servername: IiIIIiiIIIiiO.459.pp.uA
+  - name: "\U0001F1EB\U0001F1EEFI_1 |1.9MB/s|GPT|YT-DE"
+    network: ws
+    port: 8880
+    server: join.vizzpn.telegram.for.more.freevpn.vizzfrag.ir
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: VngSuPpLY.IP-DdnS.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /Etb1L6YUdZFZuTOr?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_55 |1.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 104.18.24.113
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5879d109-8c92-448a-801b-3f3989019934
+    ws-opts:
+      headers:
+        Host: a-c9q.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: >-
+        /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+    xudp: true
+    servername: pages.dev
+  - name: "\U0001F1FA\U0001F1F8US_56 |5.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 103.116.7.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_57 |3.2MB/s|YT-HK|NF|D+"
+    network: ws
+    port: 34599
+    server: 124.57.36.207
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1F8\U0001F1ECSG_3 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.239.72.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_4 |2.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 147.78.140.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_58 |3.9MB/s|GPT|NF|D+|0%"
+    network: ws
+    port: 2096
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 027f5bd9-4095-484c-b149-2fae488b457b
+    ws-opts:
+      headers:
+        Host: 638883051421404077.amsterdam-prx-dnraaal.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /rlrsttws
+    xudp: true
+    servername: 638883051421404077.amsterdam-prx-dnraaal.info
+  - name: "\U0001F1FA\U0001F1F8US_59 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.197.121.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_60 |1.1MB/s|NF"
+    network: ws
+    port: 8880
+    server: 141.11.203.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like
+          Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: /?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_61 |1.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.174.138.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_62 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 25.129.196.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_63 |2.2MB/s"
+    network: ws
+    port: 8080
+    server: 172.67.112.55
+    type: vless
+    udp: true
+    uuid: e917db16-e9b4-4aa7-8a77-617f5e82f1f8
+    ws-opts:
+      headers:
+        Host: 816tg.3wzxh3.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_5 |2.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 193.9.49.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_64 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 188.42.88.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_65 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 5.175.141.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_66 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.85.59.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_67 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 194.152.44.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /Telegram
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_68 |3.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 89.116.250.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_69 |2.6MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 188.244.122.20
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_70 |1.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 89.116.250.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_71 |1.9MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.162
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /TelegramğŸ‡¨ğŸ‡³
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_6 |1.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.93
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /Telegram@WangCai2/?ed=2048
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1EAAE_1 |3.8MB/s|GPT|YT-AE|GM|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 547dfba5-6e77-48f5-931d-8f981c0c5fad
+    port: 55000
+    server: 139.185.36.59
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_72 |1.2MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 159.112.235.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_5 |3.0MB/s|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 547dfba5-6e77-48f5-931d-8f981c0c5fad
+    port: 55000
+    server: 89.185.27.133
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_73 |3.0MB/s|GPT|NF|D+|75%"
+    network: ws
+    port: 443
+    server: dddfrrgttt.445.pp.ua
+    tls: true
+    type: vless
+    udp: true
+    uuid: c7f423b7-ced8-43da-a9ae-e906cb4a222c
+    ws-opts:
+      headers:
+        Host: dddfrrgttt.445.pp.ua
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /wU3lZaUTRQTqot0LE
+    xudp: true
+    servername: DDdFRRgtTt.445.Pp.ua
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_6 |1.8MB/s|GPT|YT-DE|NF|42%"
+    network: tcp
+    port: 34093
+    reality-opts:
+      public-key: NeuHkPV7ffq7YSQ-sJ6yQ_1RUtqx4cze7f3TwmOu2GQ
+      short-id: ce4747
+    server: aslekaar.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 620ccdff-a682-4a03-a69b-1ad2aa9dbd4a
+    xudp: true
+    servername: cloudflare.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1F3IN_2 |3.5MB/s|GPT|YT-IN|GM|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 547dfba5-6e77-48f5-931d-8f981c0c5fad
+    port: 55000
+    server: 144.24.153.219
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1FAAU_2 |2.2MB/s|GPT|YT-AU|GM|26%"
+    obfs: ''
+    obfs-password: ''
+    password: 547dfba5-6e77-48f5-931d-8f981c0c5fad
+    port: 55000
+    server: 159.13.34.59
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: dwPcFaK3QxWiSxLp0nzTW2BTUL
+    name: "\U0001F1FA\U0001F1F8US_74 |1.3MB/s|GPT|NF|D+"
+    network: grpc
+    password: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c
+    port: 443
+    server: 104.21.25.72
+    skip-cert-verify: true
+    sni: DdCcXSwE.006660666.xYZ
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_75 |1.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 80
+    server: 141.193.213.206
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1EE\U0001F1F3IN_3 |1.7MB/s|GPT|YT-NL|NF|D+|9%"
+    network: ws
+    port: 80
+    server: zoomgov.vipren.biz.id
+    type: vless
+    udp: true
+    uuid: eb1591b9-e13e-4b41-878b-1aa2c7bbc993
+    ws-opts:
+      headers:
+        Host: zoomgov.vipren.biz.id
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/57.0.2987.133 Safari/537.36
+      path: /148.113.43.228=8443
+    xudp: true
+    servername: zoomgov.vipren.biz.id
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_76 |1.1MB/s|GPT|NF|D+|75%"
+    network: ws
+    port: 80
+    server: 104.21.22.159
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: c7f423b7-ced8-43da-a9ae-e906cb4a222c
+    ws-opts:
+      headers:
+        Host: ssssxxccvvg.11890604.xyz
+      path: /Lf5XcmSPJ9CoRQTqot0LE
+    xudp: true
+    servername: ssssxxccvvg.11890604.xyz
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_77 |1.9MB/s|GPT|NF|34%"
+    network: ws
+    port: 443
+    server: 172.67.161.129
+    tls: true
+    type: vless
+    udp: true
+    uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+    ws-opts:
+      headers:
+        Host: wwwwwwwwwe3.666470.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
+    xudp: true
+    servername: WwwWWWwWWE3.666470.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_5 |2.2MB/s|GPT"
+    network: ws
+    port: 443
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 775152cc-c811-496a-b222-d9764146203f
+    ws-opts:
+      headers:
+        Host: 638885878652634282.stockholm-prx-dnraaao.info
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      path: /ldtzopws
+    xudp: true
+    servername: 638885878652634282.stockholm-prx-dnraaao.info
+  - alterId: '2'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_78 |1.0MB/s|GPT|NF|53%"
+    network: ws
+    port: 30829
+    server: v29.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: ocbc.com
+      path: /oooo
+    xudp: true
+  - name: "\U0001F1E8\U0001F1E6CA_3 |1.2MB/s|GPT|YT-CA|NF|GM"
+    network: ws
+    port: 80
+    server: 104.18.26.90
+    type: vless
+    uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+    ws-opts:
+      headers:
+        Host: blaze-can-118.blazecanada.site
+      path: /?ed=2560
+    servername: blaze-can-118.blazecanada.site
+  - delay: 1235
+    name: "\U0001F1FA\U0001F1F8US_79 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 45.131.5.213
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /?ed=2560
+    servername: jp.laoyoutiao.link
+  - delay: 808
+    name: "\U0001F1FA\U0001F1F8US_80 |2.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 188.244.122.186
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - client-fingerprint: chrome
+    delay: 1949
+    name: "\U0001F1EF\U0001F1F5JP_3 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 176.124.223.63
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: jp.laoyoutiao.link
+  - delay: 602
+    name: "\U0001F1FA\U0001F1F8US_81 |2.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 199.181.197.186
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - delay: 869
+    name: "\U0001F1FA\U0001F1F8US_82 |2.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 25.129.196.213
+    tls: false
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+      path: /?ed=2560
+    servername: jp.laoyoutiao.link
+  - delay: 1140
+    name: "\U0001F1FA\U0001F1F8US_83 |1.1MB/s|NF"
+    network: ws
+    port: 8880
+    server: 91.193.58.134
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_84 |1.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.197.80.186
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - cipher: aes-256-gcm
+    name: "\U0001F1EF\U0001F1F5JP_4 |1.2MB/s|GPT"
+    password: 70a0b8103356
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: jp5v1.lingjfjkm002.com
+      mode: websocket
+      mux: true
+      path: /bezradrqccl
+      skip-cert-verify: false
+      tls: true
+    port: 636
+    server: 137.220.142.139
+    tfo: false
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_85 |1.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 209.94.90.177
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    servername: Telegram-channel-WangCai2
+  - alpn:
+      - h3
+    auth: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
+    name: "\U0001F1F8\U0001F1ECSG_7 |1.8MB/s|GPT|YT-SG|NF|GM|0%"
+    password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
+    port: 43057
+    server: 203.174.82.145
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_86 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 199.34.230.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /Telegram@WangCai2/?ed
+    xudp: true
+    servername: ip.langmanshanxi.top
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_5 |1.1MB/s|GPT|YT-JP|NF|GM"
+    network: ws
+    port: 80
+    server: hyttttesgvvxb2.jkhkgj.xyz
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 6e2c77b4-c34b-4fb4-9187-08742eb0ba2e
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: file.dingtalk.com
+      max-early-data: 512
+      path: /market/jp1
+    xudp: true
+    servername: file.dingtalk.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_87 |1.6MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 50001
+    server: 221.145.212.98
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_88 |1.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.94
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F1F8\U0001F1ECSG_8 |3.2MB/s|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 45.153.7.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_89 |2.3MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.140
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_90 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.95
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_91 |2.2MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 50001
+    server: 118.45.152.231
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_6 |3.3MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 18088
+    server: 112.162.27.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /telegram@wangcai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_92 |1.4MB/s|YT-KR|NF|D+|GM"
+    network: ws
+    port: 12457
+    server: 175.206.233.78
+    tls: true
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_93 |5.5MB/s|NF|GM"
+    obfs: ''
+    obfs-password: ''
+    password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+    port: 8443
+    server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+    skip-cert-verify: false
+    sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1F5\U0001F1EDPH_1 |2.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 101reel.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+    ws-opts:
+      headers:
+        Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /?ed
+    xudp: true
+    servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
+  - name: "\U0001F1E6\U0001F1EAAE_2 |2.2MB/s|GPT|YT-NL|NF|D+"
+    network: ws
+    port: 80
+    server: 104.21.96.1
+    type: vless
+    udp: true
+    uuid: 2036e2c3-18a5-4eed-9db4-f91a7f02c7d5
+    ws-opts:
+      headers:
+        Host: zoomgov.vipren.biz.id
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/42.0.2311.135 Safari/537.36
+      path: /193.123.81.105=443
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EADE_7 |2.7MB/s|GPT|YT-DE|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.25.220.177
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: vngsupply.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /reklaz1FsDrIv7mW?ed=2560
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_3 |1.2MB/s|GPT|NF"
+    password: 4a2rfixophdjffa8KVA4Aa
+    port: 8080
+    server: 193.29.139.206
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E6\U0001F1F7AR_1 |1.9MB/s|GPT|YT-AR|NF|GM|18%"
+    password: 9214b8e1-5eed-4b36-9ef5-42c2f915bd0e
+    port: 15028
+    server: a.moeya.cc
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F2\U0001F1FEMY_1 |1.2MB/s|GPT|YT-JP|NF|GM"
+    password: >-
+      79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35
+    port: 40006
+    server: ml.fastsoonlink.com
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1FA\U0001F1F8US_94 |1.6MB/s|NF|D+"
+    network: ws
+    password: '91658'
+    port: 2087
+    server: 104.16.119.133
+    skip-cert-verify: false
+    sni: myWEbpAn.114514660.XyZ
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /trYndeckDjhXTVx4GP/dHMuaHBjLnR3?ed=2560
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_95 |3.3MB/s|GPT|NF"
+    network: ws
+    password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    port: 443
+    server: 172.67.170.147
+    skip-cert-verify: false
+    sni: xxcdfR.999854.xyz
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /XmTzATQPJv9RO3xr1D40NK
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_96 |2.6MB/s|GPT|NF|34%"
+    network: ws
+    password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+    port: 443
+    server: 172.67.187.28
+    skip-cert-verify: false
+    sni: dddDdDdDDFfFf.iran2035.dPdNS.ORG
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /xa846InEcmjyiKVby2Lp
+  - name: "\U0001F1FA\U0001F1F8US_97 |1.2MB/s|NF|D+|5%"
+    network: ws
+    port: 8880
+    server: 66.235.200.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_9 |4.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.66
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: "/\U0001F512 [By EbraSha]"
+    xudp: true
+    servername: "\U0001F512 [By EbraSha]"
+  - name: "\U0001F1FA\U0001F1F8US_98 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.44
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_99 |1.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.82
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: "/\U0001F512 [By EbraSha]"
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_100 |1.8MB/s|GPT|NF"
+    network: ws
+    port: 443
+    server: 172.67.130.204
+    tls: true
+    type: vless
+    udp: true
+    uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+    ws-opts:
+      headers:
+        Host: hhhhhhhhhhh.777198.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+          Mobile Safari/537.36
+      path: /OjdW89Bpg4ykd4O
+    xudp: true
+    servername: HHhhhHhhhhH.777198.xYz
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_101 |1.6MB/s|GPT|NF"
+    network: ws
+    port: 443
+    server: 162.159.129.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: 357b1bba-6400-4944-baff-1b933311ff28
+    ws-opts:
+      headers:
+        Host: SsSSSSSsSSSD.890606.Xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /kSIHD28dr9nkaMBYIsgt
+    xudp: true
+    servername: SsSSSSSsSSSD.890606.Xyz
+  - name: "\U0001F1FA\U0001F1F8US_102 |1.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.138
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    xudp: true
+    servername: us.laoyoutiao.link
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_103 |1.7MB/s|GPT|NF|34%"
+    network: ws
+    port: 443
+    server: eeeeeer.666470.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+    ws-opts:
+      headers:
+        Host: eeEEEeR.666470.xYZ
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
+    xudp: true
+    servername: eeEEEeR.666470.xYZ
+  - name: "\U0001F1FA\U0001F1F8US_104 |1.3MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.1
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_105 |1.3MB/s|GPT|NF|47%"
+    network: ws
+    port: 443
+    server: 1750158741.tencentapp.cn
+    tls: true
+    type: vless
+    udp: true
+    uuid: b6af70db-6701-44c6-a660-0beeb16b26b7
+    ws-opts:
+      headers:
+        Host: us2.loopycloudcfjiasucdn.pp.ua
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: us2.loopycloudcfjiasucdn.pp.ua
+  - name: "\U0001F1FA\U0001F1F8US_106 |1.8MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.53.191.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: cf.d3z.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_6 |2.1MB/s|GPT|NF"
+    network: ws
+    port: 2083
+    server: tgju.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 511a7f9e-8ef5-4b9a-a791-8f5ec2a8a497
+    ws-opts:
+      headers:
+        Host: Tu.MiRAcLEprESenT.ToP.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /v2rayyNGvpn/?ed=512
+    xudp: true
+    servername: Tu.MiRAcLEprESenT.ToP.
+  - name: "\U0001F1F8\U0001F1ECSG_10 |1.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.125
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2048
+    xudp: true
+    servername: sg.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_107 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.62
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: "/\U0001F512 [By EbraSha]"
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: dwPcFaK3QxWiSxLp0nzTW2BTUL
+    name: "\U0001F1FA\U0001F1F8US_108 |1.2MB/s|GPT|NF|D+|75%"
+    network: grpc
+    password: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c
+    port: 443
+    server: 104.21.22.211
+    skip-cert-verify: true
+    sni: TTGHui.taipEI108.DpdnS.ORg
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_7 |4.5MB/s|GPT|NF"
+    network: ws
+    port: 443
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 80128acc-ff7f-41fe-af34-62f4108635ca
+    ws-opts:
+      headers:
+        Host: 638880231667527799.madrid-prx-dnraaao.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /jzkedews
+    xudp: true
+    servername: 638880231667527799.madrid-prx-dnraaao.info
+  - name: "\U0001F1FA\U0001F1F8US_109 |1.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.18
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK_7 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 216.205.52.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_110 |1.7MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.100
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EADE_8 |2.5MB/s|GPT|YT-NL|NF|D+"
+    network: ws
+    port: 2096
+    server: 104.21.16.1
+    tls: true
+    type: vless
+    udp: true
+    uuid: c60ee633-a180-436a-b6ad-746653780c0b
+    ws-opts:
+      headers:
+        Host: net-account1.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /jcvxLoQVdQaPFDYc?ed=2560
+    xudp: true
+    servername: Net-AccouNT1.PagES.deV
+  - name: "\U0001F1FA\U0001F1F8US_111 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.45.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_112 |3.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 102.132.188.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_113 |1.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 102.177.189.254
+    type: vless
+    udp: true
+    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+    ws-opts:
+      headers:
+        Host: yg.bantony199.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_114 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.129.164.13
+    type: vless
+    udp: true
+    uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+    ws-opts:
+      headers:
+        Host: c.82313369.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_115 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 103.245.229.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_116 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.129.167.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F5\U0001F1EDPH_2 |1.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.16.69.143
+    type: vless
+    udp: true
+    uuid: 02811288-9ef3-42ef-86db-d9b1399c1a59
+    ws-opts:
+      headers:
+        Host: vghavi32.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /7YVyoVNnbaVzgl6D?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_117 |2.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 104.234.239.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_118 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 108.165.216.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_119 |1.1MB/s|GPT|NF|GM|51%"
+    network: ws
+    port: 81
+    server: 118.163.37.32
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0eb8618b-69d5-482a-b701-0b3be31870eb
+    ws-opts:
+      headers:
+        Host: interior-xenia-vz-ee01649f.koyeb.app
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /vl
+    xudp: true
+    servername: interior-xenia-vz-ee01649f.koyeb.app
+  - name: "\U0001F1FA\U0001F1F8US_120 |4.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 135.84.75.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_121 |1.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 14.102.229.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_122 |2.3MB/s|D+"
+    network: ws
+    port: 8880
+    server: 140.99.233.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_123 |4.3MB/s|GPT|NF"
+    network: ws
+    port: 8880
+    server: 141.11.203.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_124 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.197.121.247
+    type: vless
+    udp: true
+    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+    ws-opts:
+      headers:
+        Host: ex.sue.x10.mx
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: ex.sue.x10.mx
+  - name: "\U0001F1FA\U0001F1F8US_125 |2.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.198.173.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /Telegram @WangCai2 /?ed=2560
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_126 |1.3MB/s|GPT"
+    network: ws
+    port: 8880
+    server: 154.198.173.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_127 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.219.5.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /Telegram
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_128 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 154.219.5.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_129 |1.8MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 155.46.167.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/56.0.2924.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_130 |1.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.243.83.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_131 |2.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 159.242.242.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_132 |6.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 159.112.235.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_133 |4.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 170.114.46.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /?ed=2560fp=chrome
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_4 |1.9MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 172.66.45.9
+    tls: true
+    type: vless
+    udp: true
+    uuid: 321cc007-bb85-41c9-b686-1f45cf5174e0
+    ws-opts:
+      headers:
+        Host: mistlink-cl9.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: MiSTliNK-CL9.pAgEs.Dev
+  - name: "\U0001F1EB\U0001F1EEFI_2 |3.8MB/s|GPT|NF"
+    network: ws
+    port: 8880
+    server: 172.67.119.42
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: vngsupply.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /UTpGy4cyQ62xfAtu?ed=2560
+    xudp: true
+    servername: vNGSUPply.ip-dDns.COm
+  - name: "\U0001F1EE\U0001F1F3IN_4 |3.6MB/s|NF"
+    network: ws
+    port: 2082
+    server: 172.67.141.40
+    type: vless
+    udp: true
+    uuid: 86883d84-162c-42c4-af65-11dd80eb2ffa
+    ws-opts:
+      headers:
+        Host: tg20.dnopxqcx.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_134 |3.0MB/s|GPT|NF|GM"
+    network: ws
+    port: 443
+    server: 172.67.160.119
+    tls: true
+    type: vless
+    udp: true
+    uuid: a96cb093-b164-4bc6-bd27-deb0e385de07
+    ws-opts:
+      headers:
+        Host: eeeeeeeeed.999864.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.110 Safari/537.36
+      path: /3zsSOohi9huFfjEPpIlRig3qizHXb
+    xudp: true
+    servername: EEeeeEeEEd.999864.xyZ
+  - name: "\U0001F1EE\U0001F1F3IN_5 |1.9MB/s|GPT"
+    network: ws
+    port: 8880
+    server: 172.67.223.49
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: VngSuPpLY.IP-DdnS.com
+        User-Agent: >-
+          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /AYqSPXPXfsoy90xl?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_135 |2.8MB/s|NF"
+    network: ws
+    port: 8880
+    server: 173.245.59.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_136 |3.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 184.174.80.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/34.0.1847.131 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_137 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.133.35.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_138 |1.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.148.105.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_139 |1.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.148.105.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1EF\U0001F1F5JP_6 |1.7MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.16.110.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_140 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.162.228.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_11 |3.9MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.162.229.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_141 |2.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.170.166.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_142 |2.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.162.230.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+          like Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_143 |2.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.170.166.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
+      path: /Telegram @WangCai2 /?ed=2560
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_144 |4.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.176.24.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_12 |1.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.174.138.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_145 |2.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.18.184.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_146 |4.7MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.193.31.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_147 |4.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.193.31.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_148 |4.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.193.30.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_149 |1.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.193.31.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_150 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.251.82.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_151 |5.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.251.81.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_152 |1.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.251.80.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_153 |1.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 185.238.228.20
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_154 |5.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 188.42.145.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_155 |3.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 190.93.244.247
+    type: vless
+    udp: true
+    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+    ws-opts:
+      headers:
+        Host: ex.sue.x10.mx
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: ex.sue.x10.mx
+  - name: "\U0001F1FA\U0001F1F8US_156 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 190.93.244.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_157 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 190.93.244.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_158 |6.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 190.93.247.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_159 |2.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 192.0.54.254
+    type: vless
+    udp: true
+    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+    ws-opts:
+      headers:
+        Host: yg.bantony199.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_160 |4.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 192.65.217.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_161 |2.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 192.0.54.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_162 |4.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 193.124.224.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_13 |4.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 194.152.44.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_163 |5.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 194.36.55.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_164 |2.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 194.53.53.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_165 |3.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.45.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_14 |3.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 194.76.18.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_166 |4.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.44.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_167 |7.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.44.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_15 |3.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.45.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_168 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.13.55.13
+    type: vless
+    udp: true
+    uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+    ws-opts:
+      headers:
+        Host: c.82313369.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_169 |3.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.85.23.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_170 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 195.85.59.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_16 |3.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 198.41.206.207
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EADE_9 |1.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 198.62.62.175
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: vngsupply.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /J5aLQOY1R9ONWYCM?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_171 |2.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 199.34.228.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /Telegram @WangCai2 /?ed=2560
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_172 |2.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 216.116.134.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_173 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 216.24.57.186
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /Telegram @WangCai2 /?ed=2560
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_174 |1.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 216.24.57.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1EF\U0001F1F5JP_7 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 216.24.57.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_175 |1.7MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 27.50.48.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_176 |2.1MB/s|NF"
+    network: ws
+    port: 8880
+    server: 23.227.60.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_177 |1.1MB/s|NF"
+    network: ws
+    port: 8880
+    server: 23.227.39.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_178 |2.4MB/s|D+"
+    network: ws
+    port: 8880
+    server: 25.25.25.19
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: "/telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_179 |6.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 45.131.210.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_180 |2.0MB/s|GPT|NF"
+    network: ws
+    port: 8880
+    server: 45.135.235.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /Telegram
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: ❓Other_1 |2.1MB/s|NF|D+
+    network: ws
+    port: 8880
+    server: 45.131.210.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: ❓Other_2 |2.7MB/s|NF|D+
+    network: ws
+    port: 8880
+    server: 45.12.30.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: ❓Other_3 |2.0MB/s
+    network: ws
+    port: 8880
+    server: 45.131.208.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: sg.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_181 |2.1MB/s|NF"
+    network: ws
+    port: 8880
+    server: 45.192.224.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: ❓Other_4 |3.8MB/s
+    network: ws
+    port: 8880
+    server: 45.131.211.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_182 |2.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 46.254.93.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_183 |5.0MB/s|NF|D+|5%"
+    network: ws
+    port: 8880
+    server: 5.10.214.20
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: ip.langmanshanxi.top
+  - name: "\U0001F1FA\U0001F1F8US_184 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 5.182.85.168
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /Telegram@WangCai2/?ed=2560
+    xudp: true
+    servername: kjgx.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_185 |1.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 5.182.85.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_17 |5.4MB/s|NF"
+    network: ws
+    port: 8880
+    server: 66.45.118.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: ❓Other_5 |1.0MB/s
+    network: ws
+    port: 8880
+    server: 66.235.200.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1F8\U0001F1ECSG_18 |1.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 88.216.66.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1EF\U0001F1F5JP_8 |1.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 86.38.214.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_186 |3.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 89.116.46.188
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1ED\U0001F1F0HK_8 |2.9MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 89.116.180.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_187 |4.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 86.38.214.20
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2
+    xudp: true
+  - name: ❓Other_6 |1.4MB/s|NF|D+
+    network: ws
+    port: 8880
+    server: 89.116.180.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_188 |3.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.118
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F1F8\U0001F1ECSG_19 |3.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.22
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_189 |1.6MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.5
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_20 |5.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.206
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1F8\U0001F1ECSG_21 |1.1MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.157
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_190 |2.9MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.42
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_191 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.243.75.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_192 |4.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.53.189.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: ❓Other_7 |3.3MB/s|NF|D+
+    network: ws
+    port: 8880
+    server: 91.209.253.213
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_193 |5.6MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.83
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: us.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_194 |4.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.53.191.63
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: jp.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: jp.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_195 |1.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.60.74.247
+    type: vless
+    udp: true
+    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+    ws-opts:
+      headers:
+        Host: ex.sue.x10.mx
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: ex.sue.x10.mx
+  - name: "\U0001F1FA\U0001F1F8US_196 |2.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.243.75.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_197 |1.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.53.190.156
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: kjgx.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/35.0.1916.153 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_198 |2.4MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 92.60.74.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_199 |2.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 94.140.0.29
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: hk.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_200 |2.8MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: '::ffff:156.238.18.167'
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sg.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: /Telegram@WangCai2/?ed=2048
+    xudp: true
+    servername: sg.laoyoutiao.link
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_201 |2.6MB/s|GPT|YT-RU|NF|100%"
+    network: ws
+    port: 443
+    server: ddddfr.11890604.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: f898ffcb-6417-4373-9640-0b66091e8206
+    ws-opts:
+      headers:
+        Host: ddddfr.11890604.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /33CYL4twIwItuzXyJ5XNeH1R1
+    xudp: true
+    servername: ddddfr.11890604.xyz
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: tj
+    name: "\U0001F1EF\U0001F1F5JP_9 |5.4MB/s|GPT|YT-JP|NF|GM"
+    network: grpc
+    port: 20230
+    reality-opts:
+      public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c
+      short-id: d3b6f0c3
+    server: jp003.421421.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: fdd1d613-f234-40f6-b63d-97517e0fc4b3
+    xudp: true
+    servername: www.nvidia.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1EEFI_3 |2.0MB/s|GPT|NF|17%"
+    network: ws
+    port: 2087
+    server: samsungdigitalservice.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
+    ws-opts:
+      headers:
+        Host: interimrita.shividpolo.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /downloader?ed=2048
+    xudp: true
+    servername: interimrita.shividpolo.store
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_202 |1.7MB/s|GPT|YT-RU|NF|100%"
+    network: ws
+    port: 443
+    server: ssss3.11890604.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: f898ffcb-6417-4373-9640-0b66091e8206
+    ws-opts:
+      headers:
+        Host: ssss3.11890604.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /33CYL4twIwItuzXyJ5XNeH1R1
+    xudp: true
+    servername: ssss3.11890604.xyz
+  - name: "\U0001F1FA\U0001F1F8US_203 |4.5MB/s|GPT|NF|5%"
+    network: ws
+    port: 11968
+    server: shamo.shnovps.click
+    type: vless
+    udp: true
+    uuid: 5f1dbabe-be61-42fa-cbde-dc84ce43c638
+    ws-opts:
+      headers:
+        Host: zoomgov.vipren.biz.id
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /193.123.81.105=443
+    xudp: true
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: XmTzATQPJv9ROgWK0XsfKF93
+    name: "\U0001F1FA\U0001F1F8US_204 |3.0MB/s|GPT|NF"
+    network: grpc
+    password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    port: 443
+    server: 172.67.131.76
+    skip-cert-verify: false
+    sni: mmmnnhjU.222767.Xyz
+    type: trojan
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4 |1.5MB/s|GPT|NF|0%"
+    network: ws
+    port: 8880
+    server: 172.66.40.99
+    type: vless
+    udp: true
+    uuid: aa85159e-131f-4a94-be93-93c6952eba09
+    ws-opts:
+      headers:
+        Host: >-
+          Kk78.4qwertyuiopasdfGhjklzxcvbnmmnbvccjzlkjhgfdsapoiuytre010751.Academigroup.IR.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420?ed=80
+    xudp: true
+  - name: ❓Other_8 |1.1MB/s|D+
+    network: ws
+    port: 8880
+    server: 104.25.210.16
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: vngsupply.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /TJhZjFeb0fQLVntH?ed=2560
+    xudp: true
+    servername: vngsuPPly.IP-dDNs.CoMتعداد
+  - name: "\U0001F1EB\U0001F1EEFI_4 |5.4MB/s|GPT|YT-DE|D+"
+    network: ws
+    port: 8880
+    server: 104.25.131.154
+    type: vless
+    udp: true
+    uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+    ws-opts:
+      headers:
+        Host: vngsupply.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /C5itOz6YmbLanD7F?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_205 |1.2MB/s|GPT|D+"
+    network: ws
+    port: 443
+    server: 198.62.62.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: 80d1fe59-60f4-4272-a280-820e1ef0a754
+    ws-opts:
+      headers:
+        Host: >-
+          www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+    xudp: true
+    servername: www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1NL_5 |3.3MB/s|GPT|YT-NL|NF|53%"
+    network: tcp
+    port: 45600
+    server: 164.90.207.49
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 8dec5b5e-d03a-47bb-a7d0-208f415f902a
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1NL_6 |4.4MB/s|GPT|YT-NL|NF|53%"
+    network: tcp
+    port: 45600
+    server: 164.90.207.49
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: a6a9102b-63da-4339-a18c-743c7f792b5d
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_206 |1.6MB/s|YT-DE|D+"
+    network: ws
+    port: 2082
+    server: stock.hostmonit.com
+    type: vless
+    udp: true
+    uuid: f3562b04-2f2b-433a-80b4-45f60d659004
+    ws-opts:
+      headers:
+        Host: 925tg.3gnc3sjz.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_207 |4.8MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.69
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_208 |1.3MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.131
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: cs.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_209 |4.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.94
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: hk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /Telegram@WangCai2/?ed
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_210 |4.0MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.80
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: yd.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: yd.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_211 |3.5MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.149
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_212 |1.0MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.64
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: us.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_213 |1.5MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 91.193.58.107
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
+      path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_214 |4.9MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 156.238.18.254
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: yd.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: yd.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8US_215 |2.1MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 88.216.69.251
+    type: vless
+    udp: true
+    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    ws-opts:
+      headers:
+        Host: cf.d3z.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_216 |1.2MB/s|GPT|NF|D+"
+    network: ws
+    port: 8880
+    server: 45.159.217.254
+    type: vless
+    udp: true
+    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+    ws-opts:
+      headers:
+        Host: yg.bantony199.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: Telegram-channel-WangCai2
+  - name: "\U0001F1FA\U0001F1F8US_217 |1.1MB/s"
+    network: ws
+    port: 2082
+    server: 104.18.14.19
+    type: vless
+    udp: true
+    uuid: b111c17d-c8a4-4d4d-a417-fa40a020bcc8
+    ws-opts:
+      headers:
+        Host: 24tg.hb01i8h0.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_218 |2.3MB/s|GPT|D+"
+    network: ws
+    port: 8880
+    server: 92.53.191.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_219 |1.2MB/s|NF|D+"
+    network: ws
+    port: 8880
+    server: 45.153.7.177
+    type: vless
+    udp: true
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    ws-opts:
+      headers:
+        Host: ip.langmanshanxi.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_220 |1.0MB/s|GPT"
+    network: ws
+    port: 8880
+    server: 62.72.166.3
+    type: vless
+    udp: true
+    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+    ws-opts:
+      headers:
+        Host: bitget1.asdasd.click
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_221 |2.2MB/s|NF|D+"
+    network: ws
+    port: 443
+    server: www.wto.org
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: >-
+          hsho4k.yzinkt.h32mug.e41y3z.q5wqqi5m.bo4sbwd80v.cd2gr9.6yfce1.4e56nga.42r895jj3sh.wpj1i.kndcc4dpc1.je5yc1d.2lgiexvy5.jx57wxz.qopek.sy48.lij1jk6eniy.op2g3f2.1kbjkjvi1p.4enekkbs41cgfd2iee7k2k3slqz8ndq8g0xq8y1v.nudt.edu.kg
+      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
+    servername: >-
+      hsho4k.yzinkt.h32mug.e41y3z.q5wqqi5m.bo4sbwd80v.cd2gr9.6yfce1.4e56nga.42r895jj3sh.wpj1i.kndcc4dpc1.je5yc1d.2lgiexvy5.jx57wxz.qopek.sy48.lij1jk6eniy.op2g3f2.1kbjkjvi1p.4enekkbs41cgfd2iee7k2k3slqz8ndq8g0xq8y1v.nudt.edu.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_222 |1.3MB/s|NF|D+"
+    network: ws
+    port: 443
+    server: www.wto.org
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: >-
+          jy25mp.kiki219dncv.ikzs8wn6zxx.c9v9.op12ig.1vbzf1.8tkgn.8z1ct.qliombf6d9.dz6167n4fge.g1lf2.ybifr6g.fyigos7t4b.ugxd52ne0p.780.z3ixeat522.53t.kufu7.8t8x6dy4rmaw.ay3atkn1t9i.m75ettk5v9knp8iyhe7wijkpvokhm7qqzgyv.nudt.edu.kg
+      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
+    servername: >-
+      jy25mp.kiki219dncv.ikzs8wn6zxx.c9v9.op12ig.1vbzf1.8tkgn.8z1ct.qliombf6d9.dz6167n4fge.g1lf2.ybifr6g.fyigos7t4b.ugxd52ne0p.780.z3ixeat522.53t.kufu7.8t8x6dy4rmaw.ay3atkn1t9i.m75ettk5v9knp8iyhe7wijkpvokhm7qqzgyv.nudt.edu.kg
+rule-providers:
+  private:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml
+    path: ./ruleset/private.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  cn_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
+    path: ./ruleset/cn_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  telegram_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.yaml
+    path: ./ruleset/telegram_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  google_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.yaml
+    path: ./ruleset/google_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  geolocation-!cn:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.yaml
+    path: ./ruleset/geolocation-!cn.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  cn_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.yaml
+    path: ./ruleset/cn_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  telegram_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
+    path: ./ruleset/telegram_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  google_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
+    path: ./ruleset/google_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  bing:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
+    path: ./ruleset/bing.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  copilot:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+    path: ./ruleset/copilot.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  claude:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
+    path: ./ruleset/claude.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  bard:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BardAI/BardAI.yaml
+    path: ./ruleset/bard.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  openai:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    path: ./ruleset/openai.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  steam:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/steam.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+proxy-groups:
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: PROXY
+    type: select
+    proxies:
+      - AUTO
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    name: AIGC
+    type: select
+    proxies:
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
+    name: Telegram
+    type: select
+    proxies:
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
+    name: Google
+    type: select
+    proxies:
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)香港|Hong Kong|HK|\U0001F1ED\U0001F1F0"
+    name: HK AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)新加坡|Singapore|\U0001F1F8\U0001F1EC"
+    name: SG AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)日本|Japan|\U0001F1EF\U0001F1F5"
+    name: JP AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)美国|USA|\U0001F1FA\U0001F1F8"
+    name: US AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    proxies:
+      - PROXY
+      - AUTO
+      - AIGC
+      - Telegram
+      - Google
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+    name: GLOBAL
+    type: select
+rules:
+  - 'PROCESS-NAME,subs-check.exe,DIRECT'
+  - 'PROCESS-NAME,subs-check,DIRECT'
+  - 'RULE-SET,private,DIRECT'
+  - 'RULE-SET,bing,AIGC'
+  - 'RULE-SET,copilot,AIGC'
+  - 'RULE-SET,bard,AIGC'
+  - 'RULE-SET,openai,AIGC'
+  - 'RULE-SET,claude,AIGC'
+  - 'RULE-SET,steam,PROXY'
+  - 'RULE-SET,telegram_domain,Telegram'
+  - 'RULE-SET,telegram_ip,Telegram'
+  - 'RULE-SET,google_domain,Google'
+  - 'RULE-SET,google_ip,Google'
+  - 'RULE-SET,geolocation-!cn,PROXY'
+  - 'RULE-SET,cn_domain,DIRECT'
+  - 'RULE-SET,cn_ip,DIRECT'
+  - 'MATCH,PROXY'

@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run """D:\IDE\PowerShell\7\pwsh.exe"" -NoProfile -ExecutionPolicy Bypass -File "".\SmartContextMenu.ps1""", 0, False

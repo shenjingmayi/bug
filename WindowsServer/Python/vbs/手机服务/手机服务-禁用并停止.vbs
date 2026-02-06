@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py PhoneSvc stop disabled", "", "runas", 0

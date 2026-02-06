@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py ListaryServiceV2 auto stop", "", "runas", 0

@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python", "..\..\check.py DouyinElevationService manual stop", "", "runas", 0
