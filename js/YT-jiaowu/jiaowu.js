@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         全自动评教脚本
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      20260206
 // @description  自动处理评教表单：选择未评条目、填充评分、提交表单、自动翻页（全流程添加1秒等待+填写后滚动到底部）
 // @author       sjmy
 // @match        http://10.252.6.31/jwglxt/xspjgl

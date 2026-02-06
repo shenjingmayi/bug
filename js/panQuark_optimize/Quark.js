@@ -7,8 +7,8 @@
 // @match        *://pan.quark.cn/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=quark.cn
 // @supportURL   https://github.com/shenjingmayi/bug/issues
-// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark网盘优化.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark网盘优化.js
+// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/panQuark_optimize/Quark.js
 // @grant        none
 // @license      Apache License 2.0
 // @license      Custom License - See https://github.com/shenjingmayi/bug/blob/main/LICENSE

@@ -7,8 +7,8 @@
 // @match        *://yun.139.com/w/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=yun.139.com
 // @supportURL   https://github.com/shenjingmayi/bug/issues
-// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/139yun/移动云盘优化.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/139yun/移动云盘优化.js
+// @updateURL    https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/139yun/139yun.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/shenjingmayi/bug@main/js/139yun/139yun.js
 // @grant        none
 // @run-at       document-end
 // @license      Apache License 2.0
