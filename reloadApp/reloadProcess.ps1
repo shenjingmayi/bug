@@ -1,11 +1,11 @@
 ﻿# 导入 BurntToast 模块
 Import-Module BurntToast
-#  -processes ""Listary"", ""Listary.Service"" -appPath ""D:\Tools\LittleTools\Listary\Listary.exe"" -imgPath ""D:\Tools\LittleTools\Listary\Listary.ico"" -appName ""Listary"" 
+
 param (
-  [string[]]$processes = @("Listary", "Listary.Service"),
-  [string]$appPath = "D:\Tools\LittleTools\Listary\Listary.exe",
-  [string]$imgPath = "D:\Tools\LittleTools\Listary\Listary.ico",
-  [string]$appName = "Listary"
+  [string[]]$processes = @( ),
+  [string]$appPath = "",
+  [string]$imgPath = "",
+  [string]$appName = "应用名称"
 )
 
 # 初始化通知消息容器

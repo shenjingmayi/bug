@@ -1,1 +1,1 @@
-CreateObject("WScript.Shell").Run """D:\IDE\PowerShell\7\pwsh.exe"" -NoProfile -ExecutionPolicy Bypass -File "".\Listary.ps1""", 0, False
+CreateObject("WScript.Shell").Run " ""D:\IDE\PowerShell\7\pwsh.exe"" -NoProfile -ExecutionPolicy Bypass -File "".\Listary.ps1"" -processes ""Listary"", ""Listary.Service"" -appPath ""D:\Tools\LittleTools\Listary\Listary.exe"" -imgPath ""D:\Tools\LittleTools\Listary\Listary.ico"" -appName ""Listary"" ", 0, False
