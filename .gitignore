@@ -1,2 +1,4 @@
 .idea
 ssh/*
+*/.DS_Store
+.DS_Store
